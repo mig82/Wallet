@@ -18,7 +18,7 @@
         0,
         0
     ],
-    "_skin_": "s535896f5b6947f19e8ce2238936b94c",
+    "_skin_": "s4b98139b756417290ee43640c7220c8",
     "_text_": "XXXX",
     "_width_": {
         "type": "string",
@@ -45,7 +45,7 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblCardNoMasked2",
+    "id": "lblCardNoLastDigits",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dfe73ab37fda4ad1a81215e5dfaa5b38",
+    "kuid": "jdea92cc02b74456a99f7c31f4960bdc",
     "name": "kony.ui.Label",
-    "parent": "flxCardNoPart2",
-    "pf": "cardsForm",
+    "parent": "flxCardNoPart4",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

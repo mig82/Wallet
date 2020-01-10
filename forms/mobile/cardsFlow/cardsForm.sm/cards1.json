@@ -1,9 +1,11 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "170dp"
     },
     "_left_": {
         "type": "string",
@@ -15,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -23,39 +25,37 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "s8ea0950d0594556bb6a819019b620d9",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "imgCard",
-        "flxCardNumber"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "data": {},
     "enablescrolling": true,
-    "id": "flxCard",
+    "id": "cards1",
     "info": null,
-    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a50cf040e40a498081d32334a2e9ae19",
+    "kuid": "b910be504611486689c58271839d0141",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxCardList",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainContainer",
     "pf": "cardsForm",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "d2040378f83043939f6267b43e45434e",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
 }

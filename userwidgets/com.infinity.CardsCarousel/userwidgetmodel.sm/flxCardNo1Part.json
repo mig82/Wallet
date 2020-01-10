@@ -36,20 +36,20 @@
         "value": "50%"
     },
     "children": [
-        "lblCardNoLastDigits"
+        "lblCardNoMasked1"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCardNoPart4",
+    "id": "flxCardNo1Part",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b8b826cd353c46a1bc8cea3091d622e0",
+    "kuid": "d2fd7b32aabe4323b0b2ab6a01e910a4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxCardNumber",
-    "pf": "cardsForm",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

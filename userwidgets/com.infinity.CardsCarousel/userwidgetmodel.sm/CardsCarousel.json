@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "170dp"
     },
     "_left_": {
         "type": "string",
@@ -23,38 +23,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "s8ea0950d0594556bb6a819019b620d9",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
     "children": [
-        "blCardNoMasked3"
+        "flxCardList"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCardNoPart3",
+    "id": "CardsCarousel",
     "info": null,
-    "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hc662dc706634e76854c6865dd845be7",
+    "kuid": "d2040378f83043939f6267b43e45434e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCardNumber",
-    "pf": "cardsForm",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 20
 }

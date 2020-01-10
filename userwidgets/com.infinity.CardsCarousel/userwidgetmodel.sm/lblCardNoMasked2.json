@@ -45,7 +45,7 @@
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "blCardNoMasked3",
+    "id": "lblCardNoMasked2",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,10 +59,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d1c1f0ebea894a0fbe933af100e29c04",
+    "kuid": "d6abead3ed3f4751a2e3a804da718526",
     "name": "kony.ui.Label",
-    "parent": "flxCardNoPart3",
-    "pf": "cardsForm",
+    "parent": "flxCardNoPart2",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
