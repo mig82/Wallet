@@ -15,26 +15,22 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sfd374011f8943daa0815da0aecd0408",
-    "_title_": "Axis Bank Visa",
+    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
+    "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
-        "needAppMenu": false,
+        "needAppMenu": true,
         "psp": {
             "windowSoftInputMode": 2
         }
     },
-    "bounces": false,
+    "androidwearos": {
+        "needAppMenu": false
+    },
     "canUpdateUI": true,
     "children": [
-        "flxHeader",
-        "flxMainContainer",
-        "flxPopup",
-        "flxFooter",
-        "flxHamburger",
-        "flxNoCards",
-        "flxManageTravelPlanButton"
+        "mainFlex"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -47,9 +43,7 @@
         "needAppMenu": false
     },
     "displayorientation": 1,
-    "enabledforidletimeout": true,
-    "enablescrolling": true,
-    "friendlyName": "frmCardManageHome",
+    "enabledforidletimeout": false,
     "id": "cardsForm",
     "info": null,
     "initdone": false,
@@ -62,23 +56,13 @@
         "titleBar": false
     },
     "iphone": {
-        "needAppMenu": false,
+        "needAppMenu": true,
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarAttributes": {
-                "backBarButtonItem": {
-                    "enabled": true,
-                    "info": {
-                        "title": ""
-                    },
-                    "kuid": "j0114795ebc44998b6a335668acdbf22",
-                    "style": 0,
-                    "tintColor": "ffffff00",
-                    "type": 1
-                },
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "ef418eba928849f99323da5e633bbca7",
+                "kuid": "ca438fed88ae4555800beb7dc75d6b97",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -87,26 +71,26 @@
                     {
                         "enabled": true,
                         "info": {
-                            "image": "infoappbar.png"
+                            "title": "Edit"
                         },
-                        "kuid": "cb2fcb5dcaf54894b9ef329beecc15b5",
+                        "kuid": "ded91d39e5264f3faa763484c21cbdc9",
                         "style": 0,
-                        "tintColor": "ffffff00",
-                        "type": 0
+                        "tintColor": "4b88f100",
+                        "type": 1
                     }
                 ],
-                "tintColor": "ffffff00",
-                "translucent": false
+                "tintColor": "4b88f100",
+                "translucent": true
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "iscustomlayout": false,
     "isvisible": true,
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "a2ff1dda57a54ccda35dec907da3edc4",
+    "kuid": "fcfd9e8038a14a83a89faad87e13aac5",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
@@ -117,7 +101,7 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
-        "needAppMenu": false
+        "needAppMenu": true
     },
     "spaandroidtablet": {
         "needAppMenu": false
@@ -126,7 +110,7 @@
         "needAppMenu": false
     },
     "spaip": {
-        "needAppMenu": false
+        "needAppMenu": true
     },
     "spaipad": {
         "needAppMenu": false
@@ -137,8 +121,8 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
-    "titlebar": false,
+    "titleBarSkin": "sb56ab21c1364e1fbcf9e20b25182ce3",
+    "titlebar": true,
     "type": 3,
     "wType": "Form",
     "windows8": {

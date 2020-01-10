@@ -1,0 +1,87 @@
+{
+    "classname": "CreditLimitBar",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "Credit",
+                    "kuid": "e12ed425b22147649e4327a5cfcc5816",
+                    "paramList": [
+                        {
+                            "name": "balance"
+                        },
+                        {
+                            "name": "limit"
+                        }
+                    ],
+                    "propertyKey": "setBalance",
+                    "pw": {
+                        "displayName": "setBalance",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "adebeff6a9b34086aad3889bcf1c3555",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General",
+                "Credit"
+            ],
+            "events": [],
+            "properties": [
+                "Credit"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "1",
+                    "group": "Credit",
+                    "kuid": "b3009233e066448dbd46dd6e8e9a90ce",
+                    "originalPropertyKey": "balance",
+                    "propertyIndex": 1,
+                    "propertyKey": "balance",
+                    "pw": {
+                        "displayName": "Balance",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "adebeff6a9b34086aad3889bcf1c3555",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "10000",
+                    "group": "Credit",
+                    "kuid": "fab7139b82d84a0d9d41afaffa5a079d",
+                    "originalPropertyKey": "limit",
+                    "propertyIndex": 2,
+                    "propertyKey": "limit",
+                    "pw": {
+                        "displayName": "Limit",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "adebeff6a9b34086aad3889bcf1c3555",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dbxemea",
+    "version": "1.0.0"
+}

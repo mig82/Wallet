@@ -1,41 +1,92 @@
 define(function(){
-	
-	var privateVar = {}; //"This is a private var"
-	function privateFunction(){
-		//TODO
-	}
-	
-	return{
-		init: function(){
-			//Stuff you only want done once the first time the screen is visited.
+
+	return {
+
+		cards: [],
+
+		fetchCards: function(){
+			//TODO: Fetch these from the server.
+			var holder = "František Koudelka";
+			/*globals Q*/
+			return Q.when([
+				{
+					type: kony.i18n.getLocalizedString2("product.CREDIT_CARD"),
+					holder,
+					balance: 31084.61,
+					limit: 100000,
+					currency: "CZK",
+					image: "credit_card.png",
+					pan: "5000 0012 3456 1699"
+				},{
+					type: kony.i18n.getLocalizedString2("product.CREDIT_CARD_CUSTOM"),
+					holder,
+					balance: 125.78,
+					limit: 2500,
+					currency: "EUR",
+					image: "credit_card_custom_2.png",
+					pan: "5000 0012 3477 9737"
+				}
+			]);
 		},
+
+		showCardDetails: function(index){
+			if(this.cards.length > 0){
+				var card = this.cards[index];
+				this.view.CardInfo.setCardInfo(
+					card.type,
+					card.holder,//"František Koudelka",
+					card.balance,//1500.45,
+					card.limit, //2500,
+					card.currency //"CZK"
+				);
+			}
+		},
+
+		hideElements: function(){
+			if(kony.os.isIos()){
+				this.view.blockButton.opacity = 0;
+				this.view.detailsButton.opacity = 0;
+				this.view.settingsButton.opacity = 0;
+			}
+			else{
+				this.view.buttonsContainer.opacity = 0;
+			}
+			this.view.linkedAccountFlex.opacity = 0;
+		},
+
+		showElements: function(){
+			/*globals reveal*/
+			if(kony.os.isIos()){
+				reveal(this.view.blockButton, 0.5, 0.20);
+				reveal(this.view.detailsButton, 0.5, 0.40);
+				reveal(this.view.settingsButton, 0.5, 0.60);
+			}
+			else{
+				reveal(this.view.buttonsContainer);
+			}
+			reveal(this.view.linkedAccountFlex, 0.5, 0.80);
+		},
+
 		preShow: function(){
-			//Move stuff out of sight if you want to then animate back in.
+			this.hideElements();
 		},
-		postShow: function(){
-			//Call services to populate screen.
-			//Animate stuff back into sight.
+
+		postShow: function() {
+			this.fetchCards()
+			.then((cards) => {
+				kony.print("Cards: "+ JSON.stringify(cards));
+				this.cards = cards;
+				this.showCardDetails(0);
+				this.view.carousel.loadCards(cards);
+				//TODO: set the cards array to the carousel.
+			});
+			this.view.carousel.onCardSelected = this.showCardDetails;
+			this.showElements();
 		},
-		onHide: function(){
-			//Make sure you destroy/empty large variables that won't be needed anymore.
-		},
-		onOrientationChange: function(){
-			//Resize and resposition stuff. 
-		},
-		onBreakpointChange: function(){
-			//For responsive web, tell your components about the change in screen width.
-		},
+
 		onNavigate: function(){
-			//Wire it all together.
-			this.view.init = this.init;
-			this.view.preShow = this.preShow;
-			this.view.postShow = this.postShow;
-			this.view.onHide = this.onHide;
-			this.view.onOrientationChange = this.onOrientationChange;
-			this.view.onBreakpointChange = this.onBreakpointChange;
-		},
-		onDestroy: function(){
-			//Rarely used. Just keep in mind it exists.
+			kony.mvc.patch(this);
 		}
+
 	};
 });

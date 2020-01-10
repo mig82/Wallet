@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s910f437c9824718b2127a15c264e2b8",
+    "_text_": "Clear",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 6,
+    "displaytext": true,
+    "focusskin": "sbb35f88dc3c4d5181b6576c2d3906d2",
+    "id": "clearButton",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e9462792042741e786ecddfd3c7a809f",
+    "name": "kony.ui.Button",
+    "parent": "clearContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "header.CLEAR",
+    "wType": "Button"
+}

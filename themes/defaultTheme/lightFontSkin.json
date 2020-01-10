@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "0f0f0fff",
+  "font_name": "Roboto-Medium",
+  "font_size": 110,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "OpenSans-SemiBold",
+    "font_size": 110,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "kuid": "s8e2aec2424e40df9f6dafd613fad9d2",
+  "spaan": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "Roboto-Medium",
+    "font_size": 110,
+    "isForked": false
+  }
+}

@@ -1,0 +1,130 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "accountName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Main Account"
+            },
+            "accountNumber": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Current Account"
+            },
+            "amountLabel": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "€8.900,00"
+            },
+            "replacementImageForColour": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "id.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {
+        "widgetSkin": "se557971feb447709479a2aa890beb69"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "accountsSection",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a9215808844242ee8195c86fc6af0ba2",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "linkedAccountFlex",
+    "pf": "cardsForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a895379e2b524252b0aa41318d0ed048",
+    "rowcounter": 0,
+    "rowfocusskin": "s271ff9a6545498584590afd33aa60f4",
+    "rowskin": "s5aea83f187d49a092aafca5464a5468",
+    "rowtemplate": "rowTopFlex",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "accountName": "accountName",
+        "accountNumber": "accountNumber",
+        "amountLabel": "amountLabel",
+        "columnAccountInfo": "columnAccountInfo",
+        "iconContainer": "iconContainer",
+        "replacementImageForColour": "replacementImageForColour",
+        "rowContainer": "rowContainer",
+        "rowTopFlex": "rowTopFlex"
+    }
+}

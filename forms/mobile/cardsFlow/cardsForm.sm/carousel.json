@@ -1,0 +1,63 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "170dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s8ea0950d0594556bb6a819019b620d9",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "clipbounds": false,
+    "containerweight": 0,
+    "data": {},
+    "enablescrolling": true,
+    "id": "carousel",
+    "info": null,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "id6c291e593448b9ad79ec27055a99e9",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainFlex",
+    "pf": "cardsForm",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "bc10ff188af147b7b7f06860bdcd64c8",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
+}

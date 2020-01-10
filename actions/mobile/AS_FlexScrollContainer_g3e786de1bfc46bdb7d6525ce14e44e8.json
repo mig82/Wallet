@@ -1,0 +1,17 @@
+{
+    "AS_FlexScrollContainer_g3e786de1bfc46bdb7d6525ce14e44e8": {
+        "id": "AS_FlexScrollContainer_g3e786de1bfc46bdb7d6525ce14e44e8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onScrolling_ie21b5007f544fcba1473d8b16366778",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.headerContainer.onMainScroll(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

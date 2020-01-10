@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "LarabieRegular",
+    "font_size": 97,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "LarabieRegular",
+    "font_size": 125,
+    "isForked": false
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "LarabieRegular",
+    "font_size": 219,
+    "isForked": false
+  },
+  "fontSizeInPx": true,
+  "font_color": "d2d2d2ff",
+  "font_name": "LarabieRegular",
+  "font_size": 88,
+  "font_style": "normal",
+  "font_weight": "bold",
+  "ipad": {
+    "font_name": "LarabieRegular",
+    "font_size": 125,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "LarabieRegular",
+    "font_size": 88,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "LarabieRegular",
+    "font_size": 219,
+    "isForked": false
+  },
+  "kuid": "sb60cdc1de684c259cb664b6454fd11d",
+  "spaan": {
+    "font_name": "LarabieRegular",
+    "font_size": 78,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "LarabieRegular",
+    "font_size": 65,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "LarabieRegular",
+    "font_size": 97,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "LarabieRegular",
+    "font_size": 83,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "LarabieRegular",
+    "font_size": 69,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "LarabieRegular",
+    "font_size": 69,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "LarabieRegular",
+    "font_size": 97,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "LarabieRegular",
+    "font_size": 207,
+    "isForked": false
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "LarabieRegular",
+    "font_size": 125,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "LarabieRegular",
+    "font_size": 85,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "LarabieRegular",
+    "font_size": 117,
+    "isForked": false
+  }
+}

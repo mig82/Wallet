@@ -1,0 +1,102 @@
+{
+  "android": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "fontSizeInPx": false,
+  "font_color": "a20029ff",
+  "font_name": "OpenSans-Bold",
+  "font_size": 175,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "kuid": "s4bae668a930450c8d6070cf84cb153a",
+  "spaan": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spaandroidtablet": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spabb": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spaip": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spaipad": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spawindowstablet": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "spawinphone8": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "tabrcandroid": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "windows8": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_name": "OpenSans-Bold",
+    "font_size": 175,
+    "isForked": false
+  }
+}

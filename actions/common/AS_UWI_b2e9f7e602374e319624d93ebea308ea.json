@@ -1,0 +1,27 @@
+{
+    "AS_UWI_b2e9f7e602374e319624d93ebea308ea": {
+        "id": "AS_UWI_b2e9f7e602374e319624d93ebea308ea",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onTouchEnd_cb3ded32164647d2b1b2049a1115cdc2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickNotificationBuble",
+            "display": "onClickNotificationBuble",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

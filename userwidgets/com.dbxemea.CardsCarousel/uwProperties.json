@@ -1,0 +1,73 @@
+{
+    "classname": "CardsCarousel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "Data",
+                    "kuid": "f6b6f8b6427f4449adcfd77bb0e33438",
+                    "paramList": [
+                        {
+                            "name": "cards"
+                        }
+                    ],
+                    "propertyKey": "loadCards",
+                    "pw": {
+                        "displayName": "loadCards",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bc10ff188af147b7b7f06860bdcd64c8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "Cards",
+                    "kuid": "i3813aee555d4fcaa7042403b80d6e21",
+                    "paramList": [
+                        {
+                            "name": "index"
+                        },
+                        {
+                            "name": "card"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onCardSelected",
+                    "pw": {
+                        "displayName": "onCardSelected",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bc10ff188af147b7b7f06860bdcd64c8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General",
+                "Data"
+            ],
+            "events": [
+                "Data",
+                "Cards"
+            ],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dbxemea",
+    "version": "1.0.0"
+}

@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sec4421f30164aa08fa01ba040646993",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "accountsSection"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "sa49ac0bc8144441b0b3281ba17baa55",
+    "id": "linkedAccountFlex",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jaa2625480a845ee958b6cf4302c25b5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "scrollFlex",
+    "pf": "cardsForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

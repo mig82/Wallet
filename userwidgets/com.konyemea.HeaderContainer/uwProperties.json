@@ -1,0 +1,256 @@
+{
+    "classname": "HeaderContainer",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f88ed73837d64e1b80f265c43bd7a6b7",
+                    "paramList": [],
+                    "propertyKey": "onMainScroll",
+                    "pw": {
+                        "displayName": "onMainScroll",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c83c16868bee4b14a447d8845fa3b9d6",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jba5ae003cd74e3a8e6e77f27aae5a43",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onBackClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onBackClick",
+                        "srcWidget": "backButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ee1f6fd0fe42438aaa6fc8825d5a1abf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e305e9e0f2cb47138b6d30053652418d",
+                    "originalPropertyKey": "onTouchEnd",
+                    "propertyIndex": 2,
+                    "propertyKey": "onCrossClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onCrossClick",
+                        "srcWidget": "crossButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "j5172a7630394f67b0bf5c3b525c3931"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Labels",
+                "Config"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Labels",
+                    "kuid": "afedbf743f24471da9276254099a53a5",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Main Header Text",
+                        "srcWidget": "mainHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a59e7aea97e840d2b71f9dc113e01b6b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "de8008ca31694decbd89a844b451c31e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 1,
+                    "propertyKey": "showBackButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Back Button",
+                        "srcWidget": "backContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d445c0abeb174383bea8527721e246ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Labels",
+                    "kuid": "ba6f03c55af549489b5405b6f9b30746",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "clearButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Clear Button Text",
+                        "srcWidget": "clearButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "e9462792042741e786ecddfd3c7a809f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Labels",
+                    "kuid": "aa61983cdb8b43628d26e56afecbb616",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "backButtonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Back Button Text",
+                        "srcWidget": "backButton",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ee1f6fd0fe42438aaa6fc8825d5a1abf"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "e201e4abe29f4f0891c6fa817a567e6b",
+                    "originalPropertyKey": "isVisible1",
+                    "propertyIndex": 3,
+                    "propertyKey": "showNotifications",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Notifications Icon",
+                        "srcWidget": "notificationBubble",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "f5fc0589f49c4236bbeba9c5f5a562f8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "c78f8bd008824b26bbad0776132f42f2",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "showNotification",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Notifications",
+                        "srcWidget": "popUPContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d76ecfffbb9542749943cb2c04f74fd8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "i08a87c80dcc47cfa454f00c1d5ff14e",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "showXButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Cross Button",
+                        "srcWidget": "crossButtonContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "a789496500254c938eebf1314527317d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "c77e6a01528144d0b345659f170658f9",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 6,
+                    "propertyKey": "showClearButton",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show Clear Button",
+                        "srcWidget": "clearContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b79bfa33844446e7bfa04c2954ef79fe"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Config",
+                    "kuid": "c1563b64d04c4cc9a5ef927082f1b8bf",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 7,
+                    "propertyKey": "showTopButtons",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Show top buttons",
+                        "srcWidget": "topContainer",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "j10ac8bbda6b4283857fcdb7d0cf231a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konyemea",
+    "version": "1.0.0"
+}

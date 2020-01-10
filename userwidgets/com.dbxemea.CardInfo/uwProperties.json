@@ -1,0 +1,60 @@
+{
+    "classname": "CardInfo",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "be932e0858cb4bb7a5803d167c0b91ee",
+                    "paramList": [
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "holder"
+                        },
+                        {
+                            "name": "balance"
+                        },
+                        {
+                            "name": "limit"
+                        },
+                        {
+                            "name": "currency"
+                        }
+                    ],
+                    "propertyKey": "setCardInfo",
+                    "pw": {
+                        "displayName": "setCardInfo",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f83a2d4aa11945fb8efde337adc6b342",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "Data"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dbxemea",
+    "version": "1.0.0"
+}
