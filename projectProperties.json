@@ -261,7 +261,7 @@
     "createdgaversion": "8.4.55",
     "currentgaversion": "8.4.55",
     "deeplinkkey": "None",
-    "defaultlocalekey": "",
+    "defaultlocalekey": "de_DE",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
@@ -378,8 +378,8 @@
     "mwhttpsportkey": "",
     "mwportkey": "",
     "nativeContainerProperties": {
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": false
     },
     "objects3D": "false",

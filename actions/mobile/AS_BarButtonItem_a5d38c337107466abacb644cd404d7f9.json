@@ -1,0 +1,18 @@
+{
+    "AS_BarButtonItem_a5d38c337107466abacb644cd404d7f9": {
+        "id": "AS_BarButtonItem_a5d38c337107466abacb644cd404d7f9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fa04a582d7f84adf8da2cdf5dcbb3fb1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToCardMngDetails();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

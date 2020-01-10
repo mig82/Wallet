@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
+    "_init_": "AS_Form_jb0467d0e2a4488cb39e5934f477fc9a",
     "_margin_": [
         0,
         0,
@@ -15,8 +16,8 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
-    "_title_": null,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Axis Bank Visa",
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
@@ -25,11 +26,17 @@
             "windowSoftInputMode": 2
         }
     },
-    "androidwearos": {
-        "needAppMenu": false
-    },
+    "bounces": false,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxHeader",
+        "flxMainContainer",
+        "flxPopup",
+        "flxFooter",
+        "flxHamburger",
+        "flxNoCards",
+        "flxManageTravelPlanButton"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -41,7 +48,9 @@
         "needAppMenu": false
     },
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
+    "enablescrolling": true,
+    "friendlyName": "frmCardManageHome",
     "id": "cardsForm",
     "info": null,
     "initdone": false,
@@ -58,9 +67,19 @@
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "j0114795ebc44998b6a335668acdbf22",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "hd9089563d3b4f619f4c50d0fb26cbc5",
+                "kuid": "ef418eba928849f99323da5e633bbca7",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -69,30 +88,33 @@
                     {
                         "enabled": true,
                         "info": {
-                            "title": "Edit"
+                            "image": "infoappbar.png"
                         },
-                        "kuid": "ifc014c5cfde485089c2a682d4b2778b",
+                        "kuid": "cb2fcb5dcaf54894b9ef329beecc15b5",
+                        "onClick": "AS_BarButtonItem_a5d38c337107466abacb644cd404d7f9",
                         "style": 0,
-                        "tintColor": "4b88f100",
-                        "type": 1
+                        "tintColor": "ffffff00",
+                        "type": 0
                     }
                 ],
-                "tintColor": "4b88f100",
-                "translucent": true
+                "tintColor": "ffffff00",
+                "translucent": false
             }
         },
-        "titleBar": false
+        "titleBar": true
     },
     "iscustomlayout": false,
     "isvisible": true,
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "eb63763f941b4fe593adc5d89b3c28f6",
+    "kuid": "a2ff1dda57a54ccda35dec907da3edc4",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "postshow": "AS_Form_i39294aa1ad845a8bcbf2b6b968932fa",
+    "preshow": "AS_Form_b14bc3b2043c4291b012d3026854b60e",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
@@ -119,8 +141,8 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "sb56ab21c1364e1fbcf9e20b25182ce3",
-    "titlebar": true,
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "windows8": {

@@ -1,7 +1,17 @@
 {
     "NativeFunctionAPI": {
         "iOS": {},
-        "Android": {}
+        "Android": {
+            "4.0": {
+                "java.util.logging-Android-4.0": {
+                    "title": "java.util.logging",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "enable": true
+                }
+            }
+        }
     },
     "Metadata": {
         "Version": {
