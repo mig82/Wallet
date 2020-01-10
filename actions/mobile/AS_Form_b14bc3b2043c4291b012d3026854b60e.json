@@ -7,7 +7,7 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmCardManageHome",
+            "name": "cardsForm",
             "type": "forms",
             "platform": "",
             "KUID": "a2ff1dda57a54ccda35dec907da3edc4"
