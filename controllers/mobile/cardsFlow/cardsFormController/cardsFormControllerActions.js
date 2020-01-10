@@ -7,17 +7,17 @@ define({
         var self = this;
         this.navigateToCardMngDetails();
     },
-    /** init defined for frmCardManageHome **/
+    /** init defined for cardsForm **/
     AS_Form_jb0467d0e2a4488cb39e5934f477fc9a: function AS_Form_jb0467d0e2a4488cb39e5934f477fc9a(eventobject) {
         var self = this;
         this.init();
     },
-    /** preShow defined for frmCardManageHome **/
+    /** preShow defined for cardsForm **/
     AS_Form_b14bc3b2043c4291b012d3026854b60e: function AS_Form_b14bc3b2043c4291b012d3026854b60e(eventobject) {
         var self = this;
-        return self.preShow.call(this);
+        this.preShow();
     },
-    /** postShow defined for frmCardManageHome **/
+    /** postShow defined for cardsForm **/
     AS_Form_i39294aa1ad845a8bcbf2b6b968932fa: function AS_Form_i39294aa1ad845a8bcbf2b6b968932fa(eventobject) {
         var self = this;
         this.postShow();
