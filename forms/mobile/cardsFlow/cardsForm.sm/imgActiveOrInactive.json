@@ -37,7 +37,7 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmCardManageHome",
+        "formID": "cardsForm",
         "templateType": "forms",
         "topLevelBox": null
     },
