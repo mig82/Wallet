@@ -39,7 +39,9 @@
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "image": "card_plastic_2.png"
+    },
     "enablescrolling": true,
     "id": "card1",
     "info": null,

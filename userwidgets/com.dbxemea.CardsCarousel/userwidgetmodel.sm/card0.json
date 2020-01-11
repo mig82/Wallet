@@ -39,7 +39,10 @@
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "brandImage": "card_brand_2.png",
+        "image": "card_plastic_1.png"
+    },
     "enablescrolling": true,
     "id": "card0",
     "info": null,
