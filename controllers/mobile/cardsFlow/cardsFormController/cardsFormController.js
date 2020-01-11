@@ -2,19 +2,21 @@ define(function(){
 
 	return {
 
-		cards: [],
-
 		showCardDetails: function(index){
-			if(this.cards.length > 0){
-				var card = this.cards[index];
-				this.view.CardInfo.setCardInfo(
-					card.type,
-					card.holder,
-					card.balance,
-					card.limit,
-					card.currency
-				);
-			}
+			const fetchCards = require("cardsFlow/fetchCards");
+			fetchCards()
+			.then((cards) => {
+				if(cards.length > 0){
+					var card = cards[index];
+					this.view.CardInfo.setCardInfo(
+						card.type,
+						card.holder,
+						card.balance,
+						card.limit,
+						card.currency
+					);
+				}
+			});
 		},
 
 		hideCardOptions: function(){
@@ -57,10 +59,12 @@ define(function(){
 			fetchCards()
 			.then((cards) => {
 				kony.print("Cards: "+ JSON.stringify(cards));
-				this.cards = cards;
+				
+				//Show the type, holder and balance of the first card.
 				this.showCardDetails(0);
+				
+				//Set the cards array to the carousel.
 				this.view.carousel.loadCards(cards);
-				//TODO: set the cards array to the carousel.
 			});
 			this.view.carousel.onCardSelected = this.showCardDetails;
 			this.showCardOptions();
