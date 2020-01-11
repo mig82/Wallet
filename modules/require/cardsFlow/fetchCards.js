@@ -7,7 +7,7 @@ define(function () {
 	function fetchCards(force){
 		
 		if(typeof cards === "undefined" || force){
-			kony.print("Fetching cards from server");
+			kony.print("cardsFlow/fetchCards: Fetching cards from server");
 			//TODO: Fetch these from the server.
 			cards = [
 				{
@@ -30,7 +30,7 @@ define(function () {
 			];
 		}
 		else{ //We already have the cards and are not being asked to fetch them again.
-			kony.print("We already have the cards locally");
+			kony.print("cardsFlow/fetchCards: Fetching cards locally");
 		}
 		return Promise.resolve(cards);
 	}
