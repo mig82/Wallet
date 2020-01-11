@@ -8,7 +8,7 @@
                     "platform": "Android",
                     "os": "4.0",
                     "isDefault": false,
-                    "enable": true
+                    "enable": false
                 }
             }
         }
