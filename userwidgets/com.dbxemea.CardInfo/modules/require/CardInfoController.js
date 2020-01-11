@@ -2,10 +2,9 @@ define(function() {
 
 	return {
 		showLabels(){
-			/*globals reveal*/
-			reveal(this.view.typeLabel, 0.5, 0.25);
-			reveal(this.view.holderLabel, 0.5, 0.50);
-			reveal(this.view.balanceLabel, 0.5, 0.75);
+			kony.animations.reveal(this.view.typeLabel, 0.5, 0.25);
+			kony.animations.reveal(this.view.holderLabel, 0.5, 0.50);
+			kony.animations.reveal(this.view.balanceLabel, 0.5, 0.75);
 		},
 
 		hideLabels(){
