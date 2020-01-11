@@ -24,7 +24,7 @@
         0
     ],
     "_skin_": "s679032976ec4441b527ec218f32745a",
-    "_src_": "credit_card.png",
+    "_src_": "card_plastic_2.png",
     "_top_": {
         "type": "string",
         "value": "0%"
@@ -45,10 +45,11 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
+        "formID": "uwu7dd3ff8612b4ba59bd6ea2923000f17",
         "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "imgCard",
+    "id": "plasticImage",
     "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",

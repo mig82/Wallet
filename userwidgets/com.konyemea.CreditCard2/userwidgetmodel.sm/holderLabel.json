@@ -61,7 +61,7 @@
     "isvisible": true,
     "kuid": "ddea6450ebec4917b21979a34b9041fa",
     "name": "kony.ui.Label",
-    "parent": "flxCardNumber",
+    "parent": "dataFlex",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

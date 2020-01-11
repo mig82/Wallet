@@ -33,7 +33,7 @@
                         "category": "widget",
                         "dependentKeysKUIDs": null,
                         "displayName": "Plastic's Image",
-                        "srcWidget": "imgCard",
+                        "srcWidget": "plasticImage",
                         "type": "string",
                         "uiConfig": {
                             "Button": {
@@ -70,6 +70,34 @@
                 },
                 {
                     "access": "Enable",
+                    "group": "General",
+                    "kuid": "dd8583afbb814c88989fb06e739285b4",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "brandImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Brand Image",
+                        "srcWidget": "brandImage",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "c0c3576e818446ce8dae3558582b010a"
+                },
+                {
+                    "access": "Enable",
                     "group": "Data",
                     "kuid": "aea793e2914a44bebd9c2fbef8a00861",
                     "originalPropertyKey": "text",
@@ -86,6 +114,62 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "f262ad5aae254ad295d1df4631943da8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Look & Feel",
+                    "kuid": "a79ff7117ca04d03ad65f0038b364d12",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "bankLogo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Bank Logo",
+                        "srcWidget": "logoImage",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "g683c563f64940d5b4419a6df4e937b2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bc6d0bdff3c140f3b77b5bb44ac11ec3",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 2,
+                    "propertyKey": "chipImage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Chip Image",
+                        "srcWidget": "chipImage",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "f77e373091b249ef8af9038cb0d748b0"
                 }
             ]
         },

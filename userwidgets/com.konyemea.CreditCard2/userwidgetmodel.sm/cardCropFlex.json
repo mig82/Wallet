@@ -44,8 +44,11 @@
         "value": "50%"
     },
     "children": [
-        "imgCard",
-        "flxCardNumber"
+        "plasticImage",
+        "dataFlex",
+        "brandImage",
+        "chipImage",
+        "logoImage"
     ],
     "clipbounds": true,
     "containerweight": 100,
