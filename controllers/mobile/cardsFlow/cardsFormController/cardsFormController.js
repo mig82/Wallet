@@ -32,15 +32,18 @@ define(function(){
 		},
 
 		showCardOptions: function(){
+			/*TODO: the options for each card should depend on the card selected —e.g.:
+			If the card is blocked, the option to block it should not appear or be disabled.*/
+
 			if(kony.os.isIos()){
-				kony.animations.reveal(this.view.blockButton, 0.5, 0.20);
-				kony.animations.reveal(this.view.detailsButton, 0.5, 0.40);
-				kony.animations.reveal(this.view.settingsButton, 0.5, 0.60);
+				kony.animations.reveal(this.view.blockButton, 0.5, 0.25);
+				kony.animations.reveal(this.view.detailsButton, 0.5, 0.5);
+				kony.animations.reveal(this.view.settingsButton, 0.5, 0.75);
 			}
 			else{
-				kony.animations.reveal(this.view.buttonsContainer);
+				kony.animations.reveal(this.view.buttonsContainer, 0.5, 0.25);
 			}
-			kony.animations.reveal(this.view.linkedAccountFlex, 0.5, 0.80);
+			kony.animations.reveal(this.view.linkedAccountFlex, 0.5, 0.50);
 		},
 
 		init: function(){
@@ -59,15 +62,26 @@ define(function(){
 			fetchCards()
 			.then((cards) => {
 				kony.print("Cards: "+ JSON.stringify(cards));
-				
+
 				//Show the type, holder and balance of the first card.
 				this.showCardDetails(0);
-				
+
+				//Show the options for the selected card.
+				this.showCardOptions();
+
 				//Set the cards array to the carousel.
 				this.view.carousel.loadCards(cards);
 			});
-			this.view.carousel.onCardSelected = this.showCardDetails;
-			this.showCardOptions();
+
+			//Whenever a card is selected, show the details for the selected card.
+			//Note that CardsCarousel.onCardSelected returns one parameter which is the index
+			//of the selected card.
+			this.view.carousel.onCardSelected = (index) => {
+				this.hideCardOptions();
+				this.showCardDetails(index);
+				this.showCardOptions();
+			};
+
 		},
 
 		onHide: function(){
