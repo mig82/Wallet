@@ -33,34 +33,32 @@
         "value": "90%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
     "children": [
-        "blockButton",
-        "detailsButton",
-        "settingsButton"
+        "instructions"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "buttonsContainer",
+    "id": "CardOptions",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dee880f051934812850432783dd1ec13",
+    "kuid": "f779249bc00a4a4f912632d0fdd9cc5c",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "scrollFlex",
-    "pf": "cardsForm",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "vizProps": {},
     "wType": "FlexContainer",
     "widgetalignment": 1
 }

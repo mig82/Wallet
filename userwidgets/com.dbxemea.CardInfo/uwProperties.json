@@ -5,7 +5,7 @@
             "custom": [
                 {
                     "group": "General",
-                    "kuid": "be932e0858cb4bb7a5803d167c0b91ee",
+                    "kuid": "af758652bb884b6597186820fa3efa81",
                     "paramList": [
                         {
                             "name": "type"
@@ -40,6 +40,7 @@
         },
         "groups": {
             "apis": [
+                "General",
                 "Data"
             ],
             "events": [],

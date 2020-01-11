@@ -20,29 +20,14 @@ define(function(){
 		},
 
 		hideCardOptions: function(){
-			if(kony.os.isIos()){
-				this.view.blockButton.opacity = 0;
-				this.view.detailsButton.opacity = 0;
-				this.view.settingsButton.opacity = 0;
-			}
-			else{
-				this.view.buttonsContainer.opacity = 0;
-			}
+			//TODO: Ex03.- Inform CardOptions instance to hide.
 			this.view.linkedAccountFlex.opacity = 0;
 		},
 
 		showCardOptions: function(){
-			/*TODO: the options for each card should depend on the card selected —e.g.:
+			/*TODO: Ex03.- Inform CardOptions instance to (re)appear and which options to show —e.g.:
 			If the card is blocked, the option to block it should not appear or be disabled.*/
 
-			if(kony.os.isIos()){
-				kony.animations.reveal(this.view.blockButton, 0.5, 0.25);
-				kony.animations.reveal(this.view.detailsButton, 0.5, 0.5);
-				kony.animations.reveal(this.view.settingsButton, 0.5, 0.75);
-			}
-			else{
-				kony.animations.reveal(this.view.buttonsContainer, 0.5, 0.25);
-			}
 			kony.animations.reveal(this.view.linkedAccountFlex, 0.5, 0.50);
 		},
 
