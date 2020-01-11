@@ -12,12 +12,74 @@
         "groups": {
             "apis": [],
             "events": [],
-            "properties": [],
+            "properties": [
+                "Labels"
+            ],
             "widgets": []
         },
         "properties": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "",
+                    "group": "Labels",
+                    "kuid": "dc3c165a2afd4c228203d6bb7e5958bf",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "blockText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Block",
+                        "srcWidget": "rippleButton1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c3f201df62f74333bc9fc6dfc6e41cd0"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "",
+                    "group": "Labels",
+                    "kuid": "ged3d066e14b4ff18fe54a7f91bdd147",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "configText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Config",
+                        "srcWidget": "rippleButton3",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "gdc2b208baa044a894cae524dd1b1af9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Labels",
+                    "kuid": "a6a90baa7e344701a34bb4b429392215",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "detailsText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Details",
+                        "srcWidget": "rippleButton2",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "fede486cf855435094d6b8c48e7a6339"
+                }
+            ]
         },
         "widgets": {
             "expose": [],

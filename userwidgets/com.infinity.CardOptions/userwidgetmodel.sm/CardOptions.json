@@ -39,7 +39,9 @@
         "value": "50%"
     },
     "children": [
-        "instructions"
+        "blockButton",
+        "detailsButton",
+        "configButton"
     ],
     "clipbounds": true,
     "containerweight": 100,
