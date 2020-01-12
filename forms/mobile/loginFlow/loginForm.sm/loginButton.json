@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "backgroundHeight": {
+            "Default": {
+                "type": "string",
+                "value": "200dp"
+            }
+        },
+        "backgroundWidth": {
+            "Default": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "buttonNormalSkin": "sd6d23bf9fd1490bb2d694bdb4fe0a35",
+        "rippleHeight": {
+            "Default": {
+                "type": "string",
+                "value": "200dp"
+            }
+        },
+        "rippleSrc": "ripplebutton_ripple_red.png",
+        "rippleWidth": {
+            "Default": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "text": "Sign in"
+    },
+    "enablescrolling": true,
+    "id": "loginButton",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7e9607268ce4fc2842363393c7ec8dc",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "loginForm",
+    "pf": "loginForm",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "f1dc28506f7749b68cb0f82b0dfa3ee8",
+    "wType": "UserWidgetInstance"
+}

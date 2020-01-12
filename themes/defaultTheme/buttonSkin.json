@@ -1,0 +1,67 @@
+{
+  "android": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "androidwearos": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "background_color": "4b88f100",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "font_color": "ccccccff",
+  "font_name": "OpenSans-SemiBold",
+  "font_size": 150,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "iphone": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "kuid": "sd6d23bf9fd1490bb2d694bdb4fe0a35",
+  "spaan": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spaandroidtablet": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spabb": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spaip": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spaipad": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spawindowstablet": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "spawinphone8": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "tabrcandroid": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "wType": "Button",
+  "watchos": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "windows8": {
+    "font_name": "OpenSans-SemiBold"
+  },
+  "winphone8": {
+    "font_name": "OpenSans-SemiBold"
+  }
+}

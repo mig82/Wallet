@@ -44,6 +44,7 @@
     },
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "cards",
     "id": "cardsForm",
     "info": null,
     "initdone": false,

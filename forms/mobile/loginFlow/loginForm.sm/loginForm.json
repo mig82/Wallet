@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "loginButton"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -42,6 +44,7 @@
     },
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "login",
     "id": "loginForm",
     "info": null,
     "initdone": false,
