@@ -253,7 +253,8 @@
     "camerasettings": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "387e22cf-1102-4089-bfdb-4e1b7aceb1b2",
+    "cloud_account_guid": "ac8ffe01-8989-4cd0-8113-99d6149e90af",
+    "cloud_env_GUID": "dfdf5c49-3899-498d-9426-2f92bbe7bece",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -366,6 +367,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "ac8ffe01-8989-4cd0-8113-99d6149e90af": {
+            "appName": "Miguel",
+            "baseId": "4e0e6040-452c-4075-a8de-c14cb46c24d7",
+            "id": "4e0e6040-452c-4075-a8de-c14cb46c24d7",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "8.4.55",
     "lastmodifiedtime": "1578483877048",
     "location": "false",
@@ -677,7 +686,7 @@
     "spawindows480basefontsize": "12",
     "spawindowstabbasefontsize": "17",
     "splashlogokey": "",
-    "startupformkey": "fcfd9e8038a14a83a89faad87e13aac5",
+    "startupformkey": "ec68a8912c9945deb7c41253ef0d2cab",
     "statusBarHidden": "false",
     "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
     "support64bit": "false",

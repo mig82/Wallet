@@ -1,0 +1,12 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "Miguel",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "cards_miguel",
+    "version" : "1.0",
+    "etag" : "63666d40-189c-4e1c-8340-9e3432463952"
+  } ],
+  "identity" : [ "TpkoOktaMiguel" ]
+}

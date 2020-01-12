@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<endpoint name="default" type="JSON" url="https://tpko-prod.konycloud.com/services/cards/" encryptSecureInfo="false">
+    <config>
+        <entry>
+            <key>ignorehttpproxy</key>
+            <value>true</value>
+        </entry>
+        <entry>
+            <key>identityProviderType</key>
+            <value>oauth2</value>
+        </entry>
+        <entry>
+            <key>identityProvider</key>
+            <value>TpkoOktaMiguel</value>
+        </entry>
+    </config>
+    <apiThrottling/>
+    <jsonpath>true</jsonpath>
+</endpoint>
