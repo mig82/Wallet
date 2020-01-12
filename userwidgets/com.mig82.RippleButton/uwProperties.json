@@ -5,11 +5,11 @@
             "custom": [
                 {
                     "group": "General",
-                    "kuid": "a75d2bf4e11b4754bce0bdb8b5df28a8",
+                    "kuid": "e706f495a2984012918fae3716e80d4a",
                     "paramList": [],
-                    "propertyKey": "hideButton",
+                    "propertyKey": "showButton",
                     "pw": {
-                        "displayName": "hideButton",
+                        "displayName": "showButton",
                         "uiRepresentation": "Label-Label-Button-Button"
                     },
                     "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",
@@ -17,11 +17,11 @@
                 },
                 {
                     "group": "General",
-                    "kuid": "e910cd4d1b7841e5a0ad2bea003e5846",
+                    "kuid": "ebb50d3685b7495d9825a4b1d90a174a",
                     "paramList": [],
-                    "propertyKey": "showButton",
+                    "propertyKey": "hideButton",
                     "pw": {
-                        "displayName": "showButton",
+                        "displayName": "hideButton",
                         "uiRepresentation": "Label-Label-Button-Button"
                     },
                     "srcWgtKUID": "f1dc28506f7749b68cb0f82b0dfa3ee8",

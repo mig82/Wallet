@@ -2,15 +2,60 @@
     "classname": "CardOptions",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h7784b442c2743d9add1d0df46199086",
+                    "paramList": [],
+                    "propertyKey": "showButtons",
+                    "pw": {
+                        "displayName": "showButtons",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f779249bc00a4a4f912632d0fdd9cc5c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fa2350e82f094549a61ec1f0e8cb5cfa",
+                    "paramList": [],
+                    "propertyKey": "hideButtons",
+                    "pw": {
+                        "displayName": "hideButtons",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f779249bc00a4a4f912632d0fdd9cc5c",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d1f3f8eaa57a42e3b046a5594a853997",
+                    "paramList": [
+                        {
+                            "name": "index"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onPressed",
+                    "pw": {
+                        "displayName": "onPressed",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f779249bc00a4a4f912632d0fdd9cc5c",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [
                 "Labels"

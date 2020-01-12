@@ -232,12 +232,15 @@ define(function() {
 			kony.print(`RippleButton rippleX: ${this.rippleCenterStartX}, rippleY: ${this.rippleCenterStartY}`);
 		},
 
+		//Allow the parent to make the ripple button invisible.
 		hideButton: function(){
 			this.view.button1.opacity = 0;
 		},
 
-		showButton: function(){
-			kony.animations.reveal(this.view.button1, 0.5, 0.25);
+		//Allow the parent to make ripple button become visible.
+		showButton: function(duration, delay){
+			//TODO: Expose the configuration settings of this animation.
+			kony.animations.reveal(this.view.button1, duration, delay);
 		},
 
 		preShow: function(){
@@ -246,11 +249,9 @@ define(function() {
 			this.isClicked = false;
 			this.isReleased = true;
 			this.isFired = false;
-			this.hideButton();
 		},
 
 		postShow: function(){
-			this.showButton();
 
 			this.view.button1.onTouchStart = (button, x, y) => {
 				if(!this.isClicked){

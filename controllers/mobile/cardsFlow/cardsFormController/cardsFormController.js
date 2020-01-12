@@ -65,8 +65,19 @@ define(function(){
 				this.hideCardOptions();
 				this.showCardDetails(index);
 				this.showCardOptions();
+
+				//Hide and show card option buttons every time a card is selected.
+				this.view.cardOptions1.hideButtons();
+				this.view.cardOptions1.showButtons();
 			};
 
+			this.view.cardOptions1.onPressed = (index) => {
+				alert("Pressed card option at " + index);
+				//TODO: if 0, navigate to a screen to prompt the user for confirmation that they want to block the card.
+				//TODO: if 1, show more card details.
+				//TODO: if 2, navigate to a screen where the user can configure the card.
+
+			};
 		},
 
 		onHide: function(){
