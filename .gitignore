@@ -67,6 +67,10 @@ HeadlessBuild-Global.properties
 /nativebindings/iOS/*/Kony_FileStorage-iOS-*.zip
 /nativebindings/iOS/*/Kony_FileStorage-iOS-*/tern.json
 
+# Out-of-the-box NFI bindings for logging, from v8 SP4 onwards
+/nativebindings/Android/*/java.util.logging-Android-*.zip
+/nativebindings/Android/*/java.util.logging-Android-*/tern.json
+
 # Out-of-the-box Kony SDK Commons
 /nativebindings/Android/4.0/Kony_SDKCommons-Android-*
 /nativebindings/iOS/*/Kony_SDKCommons-iOS-*
