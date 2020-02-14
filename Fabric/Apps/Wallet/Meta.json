@@ -1,7 +1,7 @@
 {
   "icon" : "icon.png",
   "subType" : "customapp",
-  "description" : "Miguel",
+  "description" : "Wallet",
   "version" : "1.0",
   "intSvcs" : [ {
     "name" : "cards_miguel",
