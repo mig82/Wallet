@@ -1,7 +1,7 @@
 define(function () {
 
-	const service = "cards_miguel";
-	const operation = "get_cards";
+	const service = "cards";
+	const operation = "get-cards";
 	var cards;
 
 	/*Fetch cards from server, or locally if already queried before.
@@ -34,16 +34,15 @@ define(function () {
 			return new Promise((resolve, reject) => {
 
 				try{
-					kony.sdk.getCurrentInstance()
-					.getIntegrationService(service)
-					.invokeOperation(
+					var s = kony.sdk.getCurrentInstance().getIntegrationService(service);
+					s.invokeOperation(
 						operation,
 						{}, //headers
 						{}, //data
 						(response) => { //onSuccess
 							if(response.opstatus === 0 || response.opstatus === "0"){
 								cards = response.cards;
-								resolve(cards);
+								resolve(cards); //An array.
 							}
 							else{
 								reject(response);
