@@ -11,6 +11,11 @@ define(function(){
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 			kony.animations.reveal(this.view.mainFlex, 0.2, 0.2);
+
+			this.view.cancelButton.onClick = () => {
+				kony.router.goTo("login");
+			};
+
 			var login = require("loginFlow/login");
 			login({
 				browserWidget: this.view.loginBrowser
