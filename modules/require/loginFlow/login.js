@@ -4,9 +4,8 @@ define(function () {
 
 	function login(options, fetchProfile){
 
-		var sdk = kony.sdk.getCurrentInstance();
 		return new Promise((resolve, reject) => {
-			var idp = sdk.getIdentityService(idpName);
+			var idp = kony.sdk.getCurrentInstance().getIdentityService(idpName);
 			idp.login(options, (/*response*/)=>{ //onSuccess
 
 				idp.getProfile(fetchProfile,
