@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "loginButton"
+        "loginButton",
+        "titleLabel"
     ],
     "containerweight": 100,
     "controllerInfo": {
