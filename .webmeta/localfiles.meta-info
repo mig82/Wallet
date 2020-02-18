@@ -1,7 +1,16 @@
 {
     "HEAD": "wde567a9f64541999e1cab549fbb47f7",
+    "wdd4b1a484eb4423a14da68831060b53": {
+        "extension": "html",
+        "kuid": "wdd4b1a484eb4423a14da68831060b53",
+        "name": "dual_ring_loader.html",
+        "parent": "wde567a9f64541999e1cab549fbb47f7",
+        "type": "F"
+    },
     "wde567a9f64541999e1cab549fbb47f7": {
-        "children": [],
+        "children": [
+            "wdd4b1a484eb4423a14da68831060b53"
+        ],
         "kuid": "wde567a9f64541999e1cab549fbb47f7",
         "name": "localfiles",
         "type": "L"

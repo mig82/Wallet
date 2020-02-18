@@ -65,7 +65,7 @@
                 "value": "100%"
             }
         },
-        "text": "Sign in"
+        "text": "Sign in with Okta"
     },
     "enablescrolling": true,
     "id": "loginButton",
