@@ -12,6 +12,7 @@ define(["./slideIn"], function(slideIn) {
 				if(cards[k].holder)	this.view[`card${k}`].holder = cards[k].holder.toUpperCase();
 				if(cards[k].image)	this.view[`card${k}`].image = cards[k].image;
 			}
+			kony.pubsub.publish("CardsCaroussel.onCardSelected", 0, cards[0]);
 		},
 
 		bindCarousel: function(){
@@ -21,12 +22,14 @@ define(["./slideIn"], function(slideIn) {
 					var offset = parseInt(this.view.carouselFlex.contentOffsetMeasured.x);
 					var width = parseInt(this.view.carouselFlex.frame.width);
 					var index = Math.round(offset / width);
-					if(index !== this.previous && typeof this.onCardSelected === "function"){
+
+					if(index !== this.previous){
 						var card = cards[index];
 						kony.print(`Selected card ${card.id} at ${index}`);
 						this.previous = index;
-						this.onCardSelected(index, card);
+						kony.pubsub.publish("CardsCaroussel.onCardSelected", index, card);
 					}
+
 					//TODO: For SPA, we have to animate the selected card into focus.
 				}
 			};

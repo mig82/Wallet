@@ -10,8 +10,9 @@ define(function () {
 
 		if(typeof cards === "undefined" || force){
 			kony.print("cardsFlow/fetchCards: Fetching cards from server");
-			//TODO: Fetch these from the server.
-			/*cards = [
+
+			//Hardcoded data for the purpose of testing only.
+			cards = [
 				{
 					type: kony.i18n.getLocalizedString2("Credit Card"),
 					holder: "James M. Hendrix",
@@ -29,9 +30,11 @@ define(function () {
 					image: "card_plastic_2.png",
 					pan: "4000 0012 3477 9737"
 				}
-			];*/
+			];
+			//Replaced with PubSub
+			//return Promise.resolve(cards);
 
-			return new Promise((resolve, reject) => {
+			/*return new Promise((resolve, reject) => {
 
 				try{
 					var s = kony.sdk.getCurrentInstance().getIntegrationService(service);
@@ -63,12 +66,14 @@ define(function () {
 						reject(new Error(`Could not find or call ${service}.${operation}:\n\t${e}`));
 					}
 				}
-			});
+			});*/
 		}
 		else{ //We already have the cards and are not being asked to fetch them again.
 			kony.print("cardsFlow/fetchCards: Fetching cards locally");
-			return Promise.resolve(cards);
+			//Replaced with PubSub
+			//return Promise.resolve(cards);
 		}
+		kony.pubsub.publish("fetchCards.success", cards);
 	}
 
     return fetchCards;

@@ -2,23 +2,6 @@ define(function(){
 
 	return {
 
-		showCardDetails: function(index){
-			const fetchCards = require("cardsFlow/fetchCards");
-			fetchCards()
-			.then((cards) => {
-				if(cards.length > 0){
-					var card = cards[index];
-					this.view.CardInfo.setCardInfo(
-						card.type,
-						card.holder,
-						card.balance,
-						card.limit,
-						card.currency
-					);
-				}
-			});
-		},
-
 		hideCardOptions: function(){
 			//TODO: Ex03.- Inform CardOptions instance to hide.
 			this.view.linkedAccountFlex.opacity = 0;
@@ -40,16 +23,15 @@ define(function(){
 		},
 
 		postShow: function() {
-			//Call services to populate screen.
-			//Animate stuff back into sight.
 
-			const fetchCards = require("cardsFlow/fetchCards");
-			fetchCards()
-			.then((cards) => {
+			var _cards = [];
+			//Fetch the cards for this user from the server.
+			kony.pubsub.subscribe("fetchCards.success", (cards) => {
 				kony.print("Cards: "+ JSON.stringify(cards));
+				_cards = cards;
 
 				//Show the type, holder and balance of the first card.
-				this.showCardDetails(0);
+				//this.showCardDetails(0);
 
 				//Show the options for the selected card.
 				this.showCardOptions();
@@ -57,19 +39,29 @@ define(function(){
 				//Set the cards array to the carousel.
 				this.view.carousel.loadCards(cards);
 			});
+			require("cardsFlow/fetchCards")();
 
 			//Whenever a card is selected, show the details for the selected card.
 			//Note that CardsCarousel.onCardSelected returns one parameter which is the index
 			//of the selected card.
-			this.view.carousel.onCardSelected = (index) => {
+			kony.pubsub.subscribe("CardsCaroussel.onCardSelected", (index) => {
 				this.hideCardOptions();
-				this.showCardDetails(index);
+
+				var card = _cards[index];
+				this.view.CardInfo.setCardInfo(
+					card.type,
+					card.holder,
+					card.balance,
+					card.limit,
+					card.currency
+				);
+
 				this.showCardOptions();
 
 				//Hide and show card option buttons every time a card is selected.
 				this.view.cardOptions1.hideButtons();
 				this.view.cardOptions1.showButtons();
-			};
+			});
 
 			this.view.cardOptions1.onPressed = (index) => {
 				alert("Pressed card option at " + index);

@@ -21,7 +21,7 @@ define(function(){
 				browserWidget: this.view.loginBrowser
 			}, true)
 			.then((profile) => {
-				alert("Profile: " + JSON.stringify(profile));
+				//alert("Profile: " + JSON.stringify(profile));
 				kony.router.goto("cards", {}, true);
 			});
 		},
