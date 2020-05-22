@@ -369,9 +369,9 @@
     "keyStoreFilePathandwear": "",
     "kfAppInfo": {
         "ac8ffe01-8989-4cd0-8113-99d6149e90af": {
-            "appName": "Wallet",
-            "baseId": "4e0e6040-452c-4075-a8de-c14cb46c24d7",
-            "id": "4e0e6040-452c-4075-a8de-c14cb46c24d7",
+            "appName": "IronBankOfBraavos",
+            "baseId": "bb4a3d5f-9dbf-4d0a-8e7d-eb79df06b55f",
+            "id": "bb4a3d5f-9dbf-4d0a-8e7d-eb79df06b55f",
             "version": "1.0"
         }
     },

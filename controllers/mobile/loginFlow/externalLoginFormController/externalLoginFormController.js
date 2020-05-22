@@ -25,6 +25,9 @@ define(function(){
 				//alert("Profile: " + JSON.stringify(profile));
 				state.setProfile(profile);
 				kony.router.goto("cards", {}, true);
+			})
+			.catch(e => {
+				kony.print("Something went wrong with the external login:" + JSON.stringify(e));
 			});
 		},
 

@@ -1,0 +1,20 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "IronBankOfBraavos",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "IronBank_Accounts",
+    "version" : "1.0",
+    "etag" : "97f68152-f21c-4cee-a18c-c2acc7a51ce3"
+  }, {
+    "name" : "IronBank_Cards",
+    "version" : "1.0",
+    "etag" : "127e0cff-d34d-43bb-8951-16087ffcc3e4"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "cust-global-position",
+    "version" : "1.0",
+    "etag" : "f42360e5-2079-4da5-bdee-2dddb2666bcd"
+  } ]
+}

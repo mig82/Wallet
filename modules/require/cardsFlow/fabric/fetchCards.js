@@ -1,13 +1,12 @@
 define(function () {
 
-	//const service = "cards";
-	const service = "IronBankOfBravos";
-	const operation = "get-cards";
+	const service = "IronBank_Cards";
+	const operation = "getCards";
 	var cards;
 
 	/*Fetch cards from server, or locally if already queried before.
 	Use force=true to force a new request to the server.*/
-	function fetchCards(user_id){
+	function fetchCards(user){
 
 		kony.print("cardsFlow/fabric/fetchCards: Fetching cards from server");
 		/*cards = [
@@ -33,18 +32,22 @@ define(function () {
 		return new Promise((resolve, reject) => {
 			try{
 				var s = kony.sdk.getCurrentInstance().getIntegrationService(service);
-				s.invokeOperation(
+				return s.invokeOperation(
 					operation,
 					{}, //headers
 					// Take user_id from IdP in Fabric if no value is passed.
 					// Test with "00up819zaxZ8iKyFq0h7"
-					user_id? {user_id}: {}, //data
+					user? {user}: {}, //data
 					(response) => { //onSuccess
+
 						if(response.opstatus === 0 || response.opstatus === "0"){
-							cards = response.cards;
+							cards = response.cards || [];
 							resolve(cards); //An array.
 						}
+
 						else{
+							//TODO: Implement a switch for the different optstatus
+							//opstatus: 10102, errmsg: "Service does not exist for the specified serviceID."
 							reject(response);
 						}
 					},
@@ -55,13 +58,7 @@ define(function () {
 				);
 			}
 			catch(e){
-				var errorMsg = e.message;
-				if (errorMsg.indexOf('Invalid session') >= 0 || errorMsg.indexOf('session expired') >= 0) {
-					reject(e);
-				}
-				else{
-					reject(new Error(`Could not find or call ${service}.${operation}:\n\t${e}`));
-				}
+				reject(e);
 			}
 		});
 	}

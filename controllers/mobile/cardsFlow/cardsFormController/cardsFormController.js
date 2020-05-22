@@ -42,9 +42,11 @@ define(function(){
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 
-			var user_id = require("loginFlow/state").getProfile().user_id;
+			//TODO: In a real app, the user should be taken from the IdP on the Fabric side.
+			//So this call would have no input parameter —i.e. fetchCards();
+			var user = require("loginFlow/state").getProfile().email;
 			var fetchCards = require("cardsFlow/fabric/fetchCards");
-			fetchCards(user_id)
+			fetchCards(user)
 			.then((cards) => {
 				kony.print("Cards: "+ JSON.stringify(cards));
 
@@ -59,6 +61,9 @@ define(function(){
 				//Set the cards array to the carousel.
 				this.view.carousel.loadCards(cards);
 				kony.animations.reveal(this.view.carousel, 0.5, 0.1);
+			})
+			.catch(e => {
+				kony.print("Something went wrong fetching cards: " + JSON.stringify(e));
 			});
 
 			//Whenever a card is selected, show the details for the selected card.

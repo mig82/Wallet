@@ -5,6 +5,7 @@ define([], function () {
 	function login(options, fetchProfile){
 
 		return new Promise((resolve, reject) => {
+			try{
 				var idp = kony.sdk.getCurrentInstance().getIdentityService(idpName);
 				idp.login(options, (/*response*/)=>{ //onSuccess
 
@@ -25,7 +26,13 @@ define([], function () {
 					kony.print(`Error invoking identity service ${idpName}\nerror:${JSON.stringify(response)}`);
 					reject(response);
 				});
-			});
+			}
+			catch(e){
+				//TODO: Implement a switch here for the different codes.
+				//"code":"AUTH_FAILURE","message":"Invalid providerName"
+				reject(e);
+			}
+		});
 	}
 
     return login;

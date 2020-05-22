@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<endpoint name="default" type="StubConnector" encryptSecureInfo="false">
+<endpoint name="default" type="JSON" url="https://my-json-server.typicode.com/mig82/iron-bank-of-braavos/cards" encryptSecureInfo="false">
     <config>
         <entry>
             <key>ignorehttpproxy</key>
@@ -7,5 +7,5 @@
         </entry>
     </config>
     <apiThrottling/>
-    <jsonpath>false</jsonpath>
+    <jsonpath>true</jsonpath>
 </endpoint>
