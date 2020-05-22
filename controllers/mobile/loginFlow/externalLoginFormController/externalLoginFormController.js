@@ -16,12 +16,14 @@ define(function(){
 				kony.router.goTo("login");
 			};
 
-			var login = require("loginFlow/login");
+			var state = require("loginFlow/state");
+			var login = require("loginFlow/fabric/login");
 			login({
 				browserWidget: this.view.loginBrowser
 			}, true)
 			.then((profile) => {
-				alert("Profile: " + JSON.stringify(profile));
+				//alert("Profile: " + JSON.stringify(profile));
+				state.setProfile(profile);
 				kony.router.goto("cards", {}, true);
 			});
 		},

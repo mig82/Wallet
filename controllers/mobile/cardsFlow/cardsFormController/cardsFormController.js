@@ -3,20 +3,17 @@ define(function(){
 	return {
 
 		showCardDetails: function(index){
-			const fetchCards = require("cardsFlow/fetchCards");
-			fetchCards()
-			.then((cards) => {
-				if(cards.length > 0){
-					var card = cards[index];
-					this.view.CardInfo.setCardInfo(
-						card.type,
-						card.holder,
-						card.balance,
-						card.limit,
-						card.currency
-					);
-				}
-			});
+			var cards = require("cardsFlow/state").getCards();
+			if(cards.length > 0){
+				var card = cards[index];
+				this.view.CardInfo.setCardInfo(
+					card.type,
+					card.holder,
+					card.balance,
+					card.limit,
+					card.currency
+				);
+			}
 		},
 
 		hideCardOptions: function(){
@@ -34,20 +31,25 @@ define(function(){
 		init: function(){
 			//Stuff you only want done once the first time the screen is visited.
 		},
+
 		preShow: function(){
 			//Move stuff out of sight if you want to then animate back in.
 			this.hideCardOptions();
+			this.view.carousel.opacity = 0;
 		},
 
 		postShow: function() {
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 
-			const fetchCards = require("cardsFlow/fetchCards");
-			fetchCards()
+			var user_id = require("loginFlow/state").getProfile().user_id;
+			var fetchCards = require("cardsFlow/fabric/fetchCards");
+			fetchCards(user_id)
 			.then((cards) => {
 				kony.print("Cards: "+ JSON.stringify(cards));
 
+				//Save the cards fetched to application state.
+				require("cardsFlow/state").setCards(cards);
 				//Show the type, holder and balance of the first card.
 				this.showCardDetails(0);
 
@@ -56,6 +58,7 @@ define(function(){
 
 				//Set the cards array to the carousel.
 				this.view.carousel.loadCards(cards);
+				kony.animations.reveal(this.view.carousel, 0.5, 0.1);
 			});
 
 			//Whenever a card is selected, show the details for the selected card.
@@ -71,8 +74,8 @@ define(function(){
 				this.view.cardOptions1.showButtons();
 			};
 
-			this.view.cardOptions1.onPressed = (index) => {
-				alert("Pressed card option at " + index);
+			this.view.cardOptions1.onPressed = (/*index*/) => {
+				//alert("Pressed card option at " + index);
 				//TODO: if 0, navigate to a screen to prompt the user for confirmation that they want to block the card.
 				//TODO: if 1, show more card details.
 				//TODO: if 2, navigate to a screen where the user can configure the card.
@@ -88,6 +91,5 @@ define(function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
 		}
-
 	};
 });
