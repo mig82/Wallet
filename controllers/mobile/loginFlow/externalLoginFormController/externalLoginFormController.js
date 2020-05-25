@@ -18,9 +18,9 @@ define(function(){
 				kony.router.goTo("login");
 			};
 
-			loginCtrl.login({
+			loginCtrl.initSession({
 				browserWidget: this.view.loginBrowser
-			}, true)
+			})
 			.then(() => {
 				kony.router.goto("cards", {}, true);
 			})

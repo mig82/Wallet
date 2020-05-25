@@ -1,34 +1,21 @@
-define([], function () {
+define(["core/getIdP"], function (getIdP) {
 
-	const idpName = "TpkoOktaMiguel";
-
-	function login(options, fetchProfile){
+	function login(idpName, options){
 
 		return new Promise((resolve, reject) => {
 			try{
-				var idp = kony.sdk.getCurrentInstance().getIdentityService(idpName);
-				idp.login(options, (/*response*/)=>{ //onSuccess
-
-					idp.getProfile(fetchProfile,
-							(response) => {
-								kony.print(`Logged in with profile: ${JSON.stringify(response.user_attributes)}`);
-								resolve({
-									profile: response.user_attributes,
-									refresh_token: response.security_attributes.refresh_token
-								});
-							},
-							(response)=>{
-								kony.print(
-									`WARN: Failed to fetch profile: ${JSON.stringify(response)}.\n` +
-									`Resolving login without a full user profile.`
-								);
-								resolve({});
-							}
-						);
-				}, (response)=>{ //onFailure
-					kony.print(`Error invoking identity service ${idpName}\nerror:${JSON.stringify(response)}`);
-					reject(response);
-				});
+				var idp = getIdP(idpName);
+				idp.login(
+					options,
+					(response)=>{ //onSuccess
+						//Note that response of the login call is an empty object {} for Okta services.
+						kony.print("flag-0");
+						resolve(response);
+					}, (response)=>{ //onFailure
+						kony.print(`Error invoking login in IdP ${idpName}\nerror:${JSON.stringify(response)}`);
+						reject(response);
+					}
+				);
 			}
 			catch(e){
 				//TODO: Implement a switch here for the different codes.
@@ -38,5 +25,5 @@ define([], function () {
 		});
 	}
 
-    return login;
+	return login;
 });
