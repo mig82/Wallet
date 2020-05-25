@@ -1,19 +1,26 @@
 define(function(){
 
+	var cardsCtrl;
+
 	return {
 
 		showCardDetails: function(index){
-			var cards = require("cardsFlow/state").getCards();
-			if(cards.length > 0){
-				var card = cards[index];
-				this.view.CardInfo.setCardInfo(
-					card.type,
-					card.holder,
-					card.balance,
-					card.limit,
-					card.currency
-				);
-			}
+			cardsCtrl.getCards()
+			.then(cards => {
+				if(cards.length > 0){
+					var card = cards[index];
+					this.view.CardInfo.setCardInfo(
+						card.type,
+						card.holder,
+						card.balance,
+						card.limit,
+						card.currency
+					);
+				}
+			})
+			.catch(e => {
+				//TODO: Hide card details and show a label saying "You don't have any cards yet".
+			});
 		},
 
 		hideCardOptions: function(){
@@ -39,19 +46,13 @@ define(function(){
 		},
 
 		postShow: function() {
+
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 
-			//TODO: In a real app, the user should be taken from the IdP on the Fabric side.
-			//So this call would have no input parameter —i.e. fetchCards();
-			var user = require("loginFlow/state").getProfile().email;
-			var fetchCards = require("cardsFlow/fabric/fetchCards");
-			fetchCards(user)
+			cardsCtrl.getCards()
 			.then((cards) => {
-				kony.print("Cards: "+ JSON.stringify(cards));
 
-				//Save the cards fetched to application state.
-				require("cardsFlow/state").setCards(cards);
 				//Show the type, holder and balance of the first card.
 				this.showCardDetails(0);
 
@@ -95,6 +96,9 @@ define(function(){
 		onNavigate: function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
+
+			//Require the business controller for the cards flow.
+			cardsCtrl = require("cardsFlow/cardsCtrl");
 		}
 	};
 });

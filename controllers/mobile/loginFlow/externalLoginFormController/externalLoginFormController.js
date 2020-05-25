@@ -1,5 +1,7 @@
 define(function(){
 
+	var loginCtrl;
+
 	return{
 
 		preShow: function(){
@@ -16,24 +18,23 @@ define(function(){
 				kony.router.goTo("login");
 			};
 
-			var state = require("loginFlow/state");
-			var login = require("loginFlow/fabric/login");
-			login({
+			loginCtrl.login({
 				browserWidget: this.view.loginBrowser
 			}, true)
-			.then((profile) => {
-				//alert("Profile: " + JSON.stringify(profile));
-				state.setProfile(profile);
+			.then(() => {
 				kony.router.goto("cards", {}, true);
 			})
 			.catch(e => {
-				kony.print("Something went wrong with the external login:" + JSON.stringify(e));
+				kony.print("Failed external: " + JSON.stringify(e));
 			});
 		},
 
 		onNavigate: function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
+
+			//Require the business controller for the login flow.
+			loginCtrl = require("loginFlow/loginCtrl");
 		}
 	};
 });

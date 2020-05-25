@@ -12,7 +12,10 @@ define([], function () {
 					idp.getProfile(fetchProfile,
 							(response) => {
 								kony.print(`Logged in with profile: ${JSON.stringify(response.user_attributes)}`);
-								resolve(response.user_attributes);
+								resolve({
+									profile: response.user_attributes,
+									refresh_token: response.security_attributes.refresh_token
+								});
 							},
 							(response)=>{
 								kony.print(
