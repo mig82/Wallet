@@ -1,0 +1,173 @@
+{
+    "testCaseName": "swipeToSelect",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "usedBy": [
+        "cardsModule.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "500",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "10d67f01-609a-543d-a460-daaf46b7ae62",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "500"
+                    }
+                }
+            }
+        },
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "Scroll to the next card",
+            "isCodeSnippet": true,
+            "dispMeta": "1 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "06b623f4-2913-f2c0-3fc4-a4563d3dd5f2",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "kony.automation.scrollToWidget([\"cardsForm\", \"carousel\", \"card1\"])",
+                        "comment": "//Scroll to the next card - [1 lines]"
+                    }
+                }
+            }
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "700",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "5e81a984-95d6-39e5-e179-bb22148a077d",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "700"
+                    }
+                }
+            }
+        },
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "Verify card data",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "f471f67e-ae60-ab3b-3cef-c21b5f3722df",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "expect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"typeLabel\"], \"text\")).toEqual(\"Bussiness Credit Card\");\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"holderLabel\"], \"text\")).toEqual(\"J. M. Hendrix\"); \nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"balaneLabel\"], \"text\")).toEqual(\"125\");",
+                        "comment": "//Verify card data - [3 lines]"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "cardsForm.cardOptions1.detailsButton.button1",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "cardsForm.cardOptions1.detailsButton.button1",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            57,
+                            24
+                        ],
+                        "move": null,
+                        "end": [
+                            58,
+                            24
+                        ]
+                    }
+                },
+                "UUID": "9287b183-fa89-4bb3-ae96-a83a58f584d5",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "cardsForm.cardOptions1.detailsButton.button1",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": false
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "DeviceID": "web",
+                    "widgetPath": "cardsForm.cardOptions1.detailsButton.button1",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "da4dff3b-95bb-4f86-9133-a522b206c6c1"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        }
+    ]
+}
