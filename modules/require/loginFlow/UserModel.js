@@ -1,11 +1,5 @@
 /**
-* A sort of business controller for the login flow.
-* It's meant to keep application state as well as implement client-side logic
-* that is shared across views.
-*
-* TODO: This has ended up becoming a lot like a UserModel. I could rename it that,
-* but then the plan to add routing to it would have to change. Routing would stay in
-* its own loginFlow/router module.
+* A Model to store domain logic relevant to the User.
 */
 define([
 	"loginFlow/fabric/login",
@@ -30,10 +24,11 @@ define([
 	const idpName = "TpkoOktaMiguel";
 
 	/**
-	* For user repo options includes the user and password.
-	*
 	* For external authentication —e.g. Oauth2, OpenID Connect, Okta, Google, etc,
 	* pass a reference to a browser widget —e.g.: {browserWidget: this.view.loginBrowser}
+	*
+	* Other identity service types, like the User Repository, expect the options to include
+	* the credentials —e.g.: {user: "foo@bar.com": password: "123"}
 	*/
 	function initSession(options){
 
@@ -72,7 +67,7 @@ define([
 		//TODO: Implement call to logout.
 	}
 
-    return {
+	return {
 		initSession,
 		getProfile,
 		endSession

@@ -1,11 +1,5 @@
 /**
-* A sort of business controller for the cards flow.
-* It's meant to keep application state as well as implement client-side
-* that is shared across views.
-*
-* TODO: This has ended up becoming a lot like a CardsModel. I could rename it that,
-* but then the plan to add routing to it would have to change. Routing would stay in
-* its own cardsFlow/router module.
+* A Model to store domain logic relevant to a Credit Card.
 */
 define([
 	//"loginFlow/login",
@@ -28,10 +22,18 @@ define([
 			//return fetchCards(loginCtrl.getProfile().email)
 			return fetchCards()
 			.then((cards) => {
+
 				kony.print("Cards: "+ JSON.stringify(cards));
 
 				//Save the cards fetched to application state.
 				_cards = cards;
+
+				//TODO: Convert the array into an array of instances of the Card class?
+				/*_cards = cards.map(card => {
+					return new Card(...)
+				});*/
+				//Or would it make more sense to just use tv4 to validate the JSON?
+
 				return cards;
 			})
 			.catch(e => {

@@ -1,6 +1,6 @@
 define(function(){
 
-	var loginCtrl;
+	var User;
 
 	return{
 
@@ -18,7 +18,7 @@ define(function(){
 				kony.router.goTo("login");
 			};
 
-			loginCtrl.initSession({
+			User.initSession({
 				browserWidget: this.view.loginBrowser
 			})
 			.then(() => {
@@ -34,7 +34,7 @@ define(function(){
 			kony.mvc.wire(this);
 
 			//Require the business controller for the login flow.
-			loginCtrl = require("loginFlow/loginCtrl");
+			User = require("loginFlow/UserModel");
 		}
 	};
 });

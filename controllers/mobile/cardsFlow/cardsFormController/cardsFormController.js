@@ -1,11 +1,11 @@
 define(function(){
 
-	var cardsCtrl;
+	var Card;
 
 	return {
 
 		showCardDetails: function(index){
-			cardsCtrl.getCards()
+			Card.getCards()
 			.then(cards => {
 				if(cards.length > 0){
 					var card = cards[index];
@@ -50,7 +50,7 @@ define(function(){
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 
-			cardsCtrl.getCards()
+			Card.getCards()
 			.then((cards) => {
 
 				//Show the type, holder and balance of the first card.
@@ -98,7 +98,7 @@ define(function(){
 			kony.mvc.wire(this);
 
 			//Require the business controller for the cards flow.
-			cardsCtrl = require("cardsFlow/cardsCtrl");
+			Card = require("cardsFlow/CardModel");
 		}
 	};
 });
