@@ -4,7 +4,7 @@ define(function () {
 	Use force=true to force a new request to the server.*/
 	function fetchCards(user){
 
-		kony.print("cardsFlow/fabric/fetchCards: Fetching cards from server");
+		kony.print("cardsModule/fabric/fetchCards: Fetching cards from server");
 
 		return Promise.resolve([
 			{

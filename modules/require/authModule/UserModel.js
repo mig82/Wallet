@@ -2,10 +2,10 @@
 * A Model to store domain logic relevant to the User.
 */
 define([
-	"loginFlow/fabric/login",
-	"loginFlow/fabric/fetchProfile",
-	"loginFlow/fabric/fetchRefreshToken",
-	"loginFlow/fabric/logout"
+	"authModule/fabric/login",
+	"authModule/fabric/fetchProfile",
+	"authModule/fabric/fetchRefreshToken",
+	"authModule/fabric/logout"
 ], function (
 	login,
 	fetchProfile,

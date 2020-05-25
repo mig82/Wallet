@@ -2,9 +2,9 @@
 * A Model to store domain logic relevant to a Credit Card.
 */
 define([
-	//"loginFlow/login",
-	//"cardsFlow/fabric/fetchCards"
-	"cardsFlow/fabric/fetchCardsMock"
+	//"authModule/login",
+	//"cardsModule/fabric/fetchCards"
+	"cardsModule/fabric/fetchCardsMock"
 ], function (
 	//loginCtrl,
 	fetchCards

@@ -34,7 +34,7 @@ define(function(){
 			kony.mvc.wire(this);
 
 			//Require the business controller for the login flow.
-			User = require("loginFlow/UserModel");
+			User = require("authModule/UserModel");
 		}
 	};
 });

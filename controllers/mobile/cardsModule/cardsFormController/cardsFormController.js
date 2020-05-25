@@ -98,7 +98,7 @@ define(function(){
 			kony.mvc.wire(this);
 
 			//Require the business controller for the cards flow.
-			Card = require("cardsFlow/CardModel");
+			Card = require("cardsModule/CardModel");
 		}
 	};
 });

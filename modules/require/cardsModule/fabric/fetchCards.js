@@ -5,7 +5,7 @@ define(function () {
 
 	function fetchCards(user){
 
-		kony.print("cardsFlow/fabric/fetchCards: Fetching cards from server");
+		kony.print("cardsModule/fabric/fetchCards: Fetching cards from server");
 
 		return new Promise((resolve, reject) => {
 			try{
