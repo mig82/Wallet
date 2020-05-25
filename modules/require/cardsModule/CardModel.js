@@ -15,7 +15,7 @@ define([
 	/**
 	* Fetch cards from server, or locally if already queried before.
 	*/
-	function getCards(force){
+	function findAll(force){
 
 		if(typeof _cards === "undefined" || force){
 
@@ -46,6 +46,6 @@ define([
 	}
 
 	return {
-		getCards
+		findAll
 	};
 });

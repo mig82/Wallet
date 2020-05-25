@@ -5,7 +5,7 @@ define(function(){
 	return {
 
 		showCardDetails: function(index){
-			Card.getCards()
+			Card.findAll()
 			.then(cards => {
 				if(cards.length > 0){
 					var card = cards[index];
@@ -50,7 +50,7 @@ define(function(){
 			//Call services to populate screen.
 			//Animate stuff back into sight.
 
-			Card.getCards()
+			Card.findAll()
 			.then((cards) => {
 
 				//Show the type, holder and balance of the first card.
