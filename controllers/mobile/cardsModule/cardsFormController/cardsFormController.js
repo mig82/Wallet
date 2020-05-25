@@ -1,6 +1,4 @@
-define(function(){
-
-	var Card;
+define(["cardsModule/CardModel"], function(Card){
 
 	return {
 
@@ -96,9 +94,6 @@ define(function(){
 		onNavigate: function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
-
-			//Require the business controller for the cards flow.
-			Card = require("cardsModule/CardModel");
 		}
 	};
 });

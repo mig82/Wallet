@@ -1,6 +1,4 @@
-define(function(){
-
-	var User;
+define(["authModule/UserModel"], function(User){
 
 	return{
 
@@ -32,9 +30,6 @@ define(function(){
 		onNavigate: function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
-
-			//Require the business controller for the login flow.
-			User = require("authModule/UserModel");
 		}
 	};
 });
