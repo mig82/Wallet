@@ -14,7 +14,7 @@ define(function () {
 				limit: 100000,
 				currency: "CZK",
 				image: "card_plastic_1.png",
-				pan: "5000 0012 3456 1699"
+				pan: "5000001234561699"
 			},{
 				type: kony.i18n.getLocalizedString2("Business Credit Card"),
 				holder: "J. M. Hendrix",
@@ -22,7 +22,7 @@ define(function () {
 				limit: 2500,
 				currency: "EUR",
 				image: "card_plastic_2.png",
-				pan: "4000 0012 3477 9737"
+				pan: "4000001234779737"
 			}
 		]);
 	}

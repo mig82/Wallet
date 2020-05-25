@@ -35,11 +35,6 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "templateType": "userwidgets",
-        "topLevelBox": null
-    },
     "id": "logoImage",
     "imagescalemode": 1,
     "info": null,

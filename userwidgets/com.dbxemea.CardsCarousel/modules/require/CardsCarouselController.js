@@ -8,7 +8,8 @@ define(["./slideIn"], function(slideIn) {
 			//for(var k = 0; k < cards.length; k++){
 			//TODO: Adapt to create instances of the card widget dynamically.
 			for(var k = 0; k < 2; k++){
-				if(cards[k].pan)	this.view[`card${k}`].pan = cards[k].pan;
+				//if(cards[k].pan)	this.view[`card${k}`].pan = cards[k].pan;
+				if(cards[k].pan)	this.view[`card${k}`].setNumber(cards[k].pan);
 				if(cards[k].holder)	this.view[`card${k}`].holder = cards[k].holder.toUpperCase();
 				if(cards[k].image)	this.view[`card${k}`].image = cards[k].image;
 			}

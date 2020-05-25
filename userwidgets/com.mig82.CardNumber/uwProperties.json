@@ -1,0 +1,68 @@
+{
+    "classname": "CardNumber",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "jc9e2bf7603b46ef9910e92dc6c8be7c",
+                    "paramList": [
+                        {
+                            "name": "number"
+                        }
+                    ],
+                    "propertyKey": "setNumber",
+                    "pw": {
+                        "displayName": "setNumber",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "g0db0946c1f044459c31d3958c0cb5c8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e1eea00517684e3e8239fd47ea2be4bb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Card Number",
+                        "srcWidget": "panLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e3fa8e8aa64b48e38a5ffdba8046581e"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82",
+    "version": "1.0.0"
+}

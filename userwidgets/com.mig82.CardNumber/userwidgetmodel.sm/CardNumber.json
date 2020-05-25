@@ -1,15 +1,9 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "50%"
-    },
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,7 +15,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -30,31 +24,37 @@
     ],
     "_percent_": true,
     "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "topFlex"
+    ],
     "clipbounds": true,
-    "containerweight": 0,
-    "data": {},
+    "containerweight": 100,
     "enablescrolling": true,
-    "id": "panLabel",
+    "id": "CardNumber",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c219d4d9bd4f4593b4b128c0213862a8",
+    "kuid": "g0db0946c1f044459c31d3958c0cb5c8",
     "layouttype": 2,
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "dataFlex",
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "g0db0946c1f044459c31d3958c0cb5c8",
-    "wType": "UserWidgetInstance"
+    "wType": "FlexContainer",
+    "widgetalignment": 1
 }

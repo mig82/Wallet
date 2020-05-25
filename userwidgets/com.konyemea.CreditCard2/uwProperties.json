@@ -3,14 +3,37 @@
     "definitions": {
         "apis": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i0d7d33a1e4543c6bdd2eab58252751c",
+                    "originalPropertyKey": "setNumber",
+                    "propertyKey": "setNumber",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "customPropInfo": {
+                            "type": "event"
+                        },
+                        "displayName": "setNumber",
+                        "srcWidget": "panLabel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c219d4d9bd4f4593b4b128c0213862a8"
+                }
+            ]
         },
         "events": {
             "custom": [],
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [
                 "Data",
@@ -98,25 +121,6 @@
                 },
                 {
                     "access": "Enable",
-                    "group": "Data",
-                    "kuid": "aea793e2914a44bebd9c2fbef8a00861",
-                    "originalPropertyKey": "text",
-                    "propertyIndex": 2,
-                    "propertyKey": "pan",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependentKeysKUIDs": null,
-                        "displayName": "PAN",
-                        "srcWidget": "panLabel",
-                        "type": "string",
-                        "uiRepresentation": "Label-Textbox",
-                        "wType": "Label"
-                    },
-                    "srcWgtKUID": "f262ad5aae254ad295d1df4631943da8"
-                },
-                {
-                    "access": "Enable",
                     "group": "Look & Feel",
                     "kuid": "a79ff7117ca04d03ad65f0038b364d12",
                     "originalPropertyKey": "src",
@@ -170,6 +174,25 @@
                         "wType": "Image"
                     },
                     "srcWgtKUID": "f77e373091b249ef8af9038cb0d748b0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ida5f4144ef043668198b4b24cf28e25",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "pan",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "PAN",
+                        "srcWidget": "panLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "c219d4d9bd4f4593b4b128c0213862a8"
                 }
             ]
         },
