@@ -2,6 +2,8 @@
     "groupName": "Test Suites",
     "testSuiteName": "cardsModule",
     "testCaseInfo": [
+        "swipeForthAndBack.js",
+        "selectFirstCard.js",
         "swipeToSelect.js"
     ],
     "usedBy": [

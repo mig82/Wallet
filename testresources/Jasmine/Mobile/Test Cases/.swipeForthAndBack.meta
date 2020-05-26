@@ -2,6 +2,8 @@
     "testCaseName": "swipeForthAndBack",
     "testSuiteName": "Test Cases",
     "channelName": "Mobile",
-    "usedBy": [],
+    "usedBy": [
+        "cardsModule.js"
+    ],
     "userCode": true
 }
