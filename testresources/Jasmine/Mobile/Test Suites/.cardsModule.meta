@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "cardsModule",
+    "testCaseInfo": [
+        "swipeToSelect.js"
+    ],
+    "usedBy": [
+        "sanityTests.js"
+    ]
+}
