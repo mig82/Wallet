@@ -12,7 +12,7 @@
             "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
             "entity": "Wait in ms",
             "metaEditable": true,
-            "dispMeta": "500",
+            "dispMeta": "3000",
             "contextMenu": {
                 "isAssertEnabled": false,
                 "isWaitForEnabled": false,
@@ -26,7 +26,7 @@
                 "messageData": {
                     "widgetType": "Wait",
                     "metadata": {
-                        "waitTimeMS": "500"
+                        "waitTimeMS": "3000"
                     }
                 }
             }
@@ -89,7 +89,7 @@
             "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
             "entity": "Verify card data",
             "isCodeSnippet": true,
-            "dispMeta": "3 lines",
+            "dispMeta": "4 lines",
             "contextMenu": {
                 "isAssertEnabled": false,
                 "isWaitForEnabled": false,
@@ -104,47 +104,11 @@
                 "messageData": {
                     "widgetType": "CodeBlock",
                     "metadata": {
-                        "rawCode": "expect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"typeLabel\"], \"text\")).toEqual(\"Bussiness Credit Card\");\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"holderLabel\"], \"text\")).toEqual(\"J. M. Hendrix\"); \nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"balaneLabel\"], \"text\")).toEqual(\"125\");",
-                        "comment": "//Verify card data - [3 lines]"
+                        "rawCode": "//Verify type, holder and balance of second card.\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"typeLabel\"], \"text\")).toEqual(\"Bussiness Credit Card\");\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"holderLabel\"], \"text\")).toEqual(\"J. M. Hendrix\"); \nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"balaneLabel\"], \"text\")).toEqual(\"€125.78\");",
+                        "comment": "//Verify card data - [4 lines]"
                     }
                 }
             }
-        },
-        {
-            "displayReady": true,
-            "actionName": "Touch",
-            "actionIconClassName": "assets/widget_icons/tap.svg",
-            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
-            "entity": "cardsForm.cardOptions1.detailsButton.button1",
-            "contextMenu": {
-                "isScrollToRowEnabled": false,
-                "isScreenShotEnabled": false
-            },
-            "actualMessage": {
-                "messageType": "Record",
-                "messageData": {
-                    "DeviceID": "web",
-                    "widgetPath": "cardsForm.cardOptions1.detailsButton.button1",
-                    "widgetType": "widget",
-                    "actionType": "touch",
-                    "metadata": {
-                        "start": [
-                            57,
-                            24
-                        ],
-                        "move": null,
-                        "end": [
-                            58,
-                            24
-                        ]
-                    }
-                },
-                "UUID": "9287b183-fa89-4bb3-ae96-a83a58f584d5",
-                "_cached": true
-            },
-            "_cached": true,
-            "dispMeta": "",
-            "metaEditable": false
         },
         {
             "displayReady": true,
