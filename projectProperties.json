@@ -269,7 +269,7 @@
     "createdgaversion": "8.4.55",
     "currentgaversion": "9.0.2",
     "deeplinkkey": "None",
-    "defaultlocalekey": "cs_CZ",
+    "defaultlocalekey": "en_US",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
@@ -307,6 +307,7 @@
     "enablesearchbar": "false",
     "enablesearchbarandwear": "false",
     "enableseo": "false",
+    "enableserverevents": false,
     "enablesso": false,
     "enablexfsdw": false,
     "enablexfsspa": false,
@@ -400,9 +401,9 @@
     "mwhttpsportkey": "",
     "mwportkey": "",
     "nativeContainerProperties": {
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
-        "isEnableJSContaineriOS": false
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true
     },
     "objects3D": "false",
     "organizationidsso": "",

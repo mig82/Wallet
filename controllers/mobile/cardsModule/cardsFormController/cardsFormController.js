@@ -78,12 +78,14 @@ define(["cardsModule/CardModel"], function(Card){
 				this.view.cardOptions1.showButtons();
 			};
 
-			this.view.cardOptions1.onPressed = (/*index*/) => {
+			this.view.cardOptions1.onPressed = (index) => {
 				//alert("Pressed card option at " + index);
 				//TODO: if 0, navigate to a screen to prompt the user for confirmation that they want to block the card.
-				//TODO: if 1, show more card details.
 				//TODO: if 2, navigate to a screen where the user can configure the card.
-
+				if(index === 1){
+					//TODO: Set the card selected to application state.
+					kony.router.goto("card");
+				}
 			};
 		},
 

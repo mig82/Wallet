@@ -1,0 +1,105 @@
+{
+    "classname": "NormalMultiline",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f3dace5b2b3c486499c6eacca136bbcb",
+                    "originalPropertyKey": "autoCapitalize",
+                    "propertyIndex": 1,
+                    "propertyKey": "autoCapitalize",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "autoCapitalize",
+                        "srcWidget": "innerTextArea",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "ca5fefeca5b342d6a3324dc8065044c3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aeb0639ba84640498b0375c8d16c35e8",
+                    "originalPropertyKey": "padding",
+                    "propertyIndex": 2,
+                    "propertyKey": "padding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "padding",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerTextArea",
+                        "type": "list",
+                        "uiRepresentation": "Padding",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "ca5fefeca5b342d6a3324dc8065044c3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d1aa2aae92164950a50b56d5a8bed65c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "srcWidget": "innerTextArea",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "ca5fefeca5b342d6a3324dc8065044c3"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.infinity.text",
+    "version": "1.0.0"
+}
