@@ -2,6 +2,9 @@ define(["core/getIdP"], function (getIdP) {
 
 	function login(idpName, options){
 
+		//TODO: Test refresh_token flow. This should supposedly make the SDK try to use the refresh_token, if supported by the IdP.
+		//options.requestParams = {refresh: true};
+
 		return new Promise((resolve, reject) => {
 			try{
 				var idp = getIdP(idpName);
