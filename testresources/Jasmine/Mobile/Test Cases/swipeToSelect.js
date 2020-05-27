@@ -8,7 +8,11 @@ it("swipeToSelect", async function() {
 	//Verify type, holder and balance of second card.
 	expect(kony.automation.widget.getWidgetProperty(["cardsForm","CardInfo","typeLabel"], "text")).toEqual("Bussiness Credit Card");
 	expect(kony.automation.widget.getWidgetProperty(["cardsForm","CardInfo","holderLabel"], "text")).toEqual("J. M. Hendrix"); 
-	expect(kony.automation.widget.getWidgetProperty(["cardsForm","CardInfo","balaneLabel"], "text")).toEqual("€125.78");
+	expect(kony.automation.widget.getWidgetProperty(["cardsForm","CardInfo","balanceLabel"], "text")).toEqual("€125.78");
 	// :End User Injected Code Snippet {f471f67e-ae60-ab3b-3cef-c21b5f3722df}
 	kony.automation.button.click(["cardsForm","cardOptions1","detailsButton","button1"]);
+	await kony.automation.playback.wait(2000);
+	kony.automation.widget.touch(["cardDetailsForm","doneButton","button1"], [246,26],[[246,25]],[246,25]);
+	kony.automation.button.click(["cardDetailsForm","doneButton","button1"]);
+	await kony.automation.playback.wait(2000);
 });

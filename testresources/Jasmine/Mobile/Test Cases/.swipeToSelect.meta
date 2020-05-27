@@ -104,7 +104,7 @@
                 "messageData": {
                     "widgetType": "CodeBlock",
                     "metadata": {
-                        "rawCode": "//Verify type, holder and balance of second card.\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"typeLabel\"], \"text\")).toEqual(\"Bussiness Credit Card\");\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"holderLabel\"], \"text\")).toEqual(\"J. M. Hendrix\"); \nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"balaneLabel\"], \"text\")).toEqual(\"€125.78\");",
+                        "rawCode": "//Verify type, holder and balance of second card.\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"typeLabel\"], \"text\")).toEqual(\"Bussiness Credit Card\");\nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"holderLabel\"], \"text\")).toEqual(\"J. M. Hendrix\"); \nexpect(kony.automation.widget.getWidgetProperty([\"cardsForm\",\"CardInfo\",\"balanceLabel\"], \"text\")).toEqual(\"€125.78\");",
                         "comment": "//Verify card data - [4 lines]"
                     }
                 }
@@ -132,6 +132,118 @@
             },
             "dispMeta": null,
             "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "2000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "763fde87-7dee-beef-611b-1802bf09599e",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "cardDetailsForm.doneButton.button1",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "cardDetailsForm.doneButton.button1",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            246,
+                            26
+                        ],
+                        "move": [
+                            [
+                                246,
+                                25
+                            ]
+                        ],
+                        "end": [
+                            246,
+                            25
+                        ]
+                    }
+                },
+                "UUID": "8f61b972-9011-4f31-9ce5-2005314125e4",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "cardDetailsForm.doneButton.button1",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "cardDetailsForm.doneButton.button1",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "f9af436e-a009-4c21-bbdd-889cf9c879c5"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "2000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "c50a6264-c0e7-ebee-d633-004fa8a55522",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "2000"
+                    }
+                }
+            }
         }
     ]
 }
