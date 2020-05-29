@@ -32,8 +32,6 @@ define([
 	*/
 	function initSession(options){
 
-		//TODO: Validate that options includes a browser widget ref or user/password depending on the IdP type?
-
 		return login(idpName, options)
 		.then( (/*result*/) => {
 
@@ -51,7 +49,8 @@ define([
 			});
 		})
 		.catch(e => {
-			kony.print("Something went wrong with the external login:" + JSON.stringify(e));
+			kony.print(`Error: Unable to initiate user session.`);
+			throw e;
 		});
 	}
 

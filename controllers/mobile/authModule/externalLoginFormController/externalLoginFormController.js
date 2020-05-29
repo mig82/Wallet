@@ -23,7 +23,10 @@ define(["authModule/UserModel"], function(User){
 				kony.router.goto("cards", {}, true);
 			})
 			.catch(e => {
-				kony.print("Failed external: " + JSON.stringify(e));
+				kony.print(`${e.message}\n${e.stack}`);
+				//TODO: Show a toast instead of an alert.
+				alert(e);
+				kony.router.goBack();
 			});
 		},
 
