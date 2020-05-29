@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -36,28 +36,27 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "MainHeader",
-        "carousel",
-        "scrollFlex"
+        "H1",
+        "logoutButton"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "mainFlex",
+    "id": "MainHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f263f865703140e7ac427ed1ed91a6be",
-    "layouttype": 4,
+    "kuid": "fef5a999845d4840a62681beeb9ee680",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "cardsForm",
-    "pf": "cardsForm",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {},
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 20
 }

@@ -17,6 +17,8 @@ define(["cardsModule/CardModel"], function(Card){
 				}
 			})
 			.catch(e => {
+				kony.print("Error fetching cards for this user");
+				throw(e);
 				//TODO: Hide card details and show a label saying "You don't have any cards yet".
 			});
 		},

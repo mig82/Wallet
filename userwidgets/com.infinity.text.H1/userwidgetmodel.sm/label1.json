@@ -17,12 +17,12 @@
         0
     ],
     "_padding_": [
+        2,
         0,
-        0,
-        0,
+        2,
         0
     ],
-    "_skin_": "s4ed1bd079f34b77ae53182b4b37b801",
+    "_skin_": "s4bae668a930450c8d6070cf84cb153a",
     "_text_": "Header 1",
     "_top_": {
         "type": "string",

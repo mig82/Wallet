@@ -1,26 +1,29 @@
-define([], function () {
+define(["core/getIdP"], function (getIdP) {
 
-	const idpName = "TpkoOktaMiguel";
+	function logout(idpName, options){
 
-	function logout(options){
-
-		/*return new Promise((resolve, reject) => {
+		return new Promise((resolve, reject) => {
 			try{
-				var idp = kony.sdk.getCurrentInstance().getIdentityService(idpName);
-				idp.logout(options, (response)=>{ //onSuccess
-					resolve(response)
-				}, (response)=>{ //onFailure
-					kony.print(`Error invoking identity service ${idpName}\nerror:${JSON.stringify(response)}`);
-					reject(response);
-				});
+				var idp = getIdP(idpName);
+				idp.logout(
+					(response)=>{ //onSuccess
+						//Note that response of the logout call is an empty object {} for Okta services.
+						resolve(response);
+					}, (response)=>{ //onFailure
+						kony.print(`Error invoking logout on identity service ${idpName}\nerror:${JSON.stringify(response)}`);
+						reject(response);
+					},
+					options
+				);
 			}
 			catch(e){
 				//TODO: Implement a switch here for the different codes.
 				//"code":"AUTH_FAILURE","message":"Invalid providerName"
+				kony.print(`Error: Unable to invoke fabric logout call for identity service '${idpName}'.`);
 				reject(e);
 			}
-		});*/
+		});
 	}
 
-    return logout;
+	return logout;
 });

@@ -25,7 +25,7 @@ define(["authModule/UserModel"], function(User){
 			.catch(e => {
 				kony.print(`${e.message}\n${e.stack}`);
 				//TODO: Show a toast instead of an alert.
-				alert(e);
+				alert(JSON.stringify(e));
 				kony.router.goBack();
 			});
 		},

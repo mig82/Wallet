@@ -4,12 +4,12 @@
     "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -33,44 +33,36 @@
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
+    "centery": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 0,
     "data": {
-        "isVisible11": true,
-        "isVisible12": false,
-        "notificationCount": "5",
-        "onClickBack": "AS_UWI_a64d9c5101ff4425b9208267c683b68a",
-        "showBackButton": false,
-        "showClearButton": false,
-        "showTopButtons": false,
-        "text": "Karty",
-        "title": "title.CARDS"
+        "text": "title.CARDS"
     },
     "enablescrolling": true,
-    "id": "headerContainer",
+    "id": "H1",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
-    "kuid": "cdd44130eee24426acfd06405f0d69ce",
-    "layouttype": 4,
+    "kuid": "b70b5f00cc014ea78a0eb89fd61e70f5",
+    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "mainFlex",
-    "pf": "cardsForm",
+    "parent": "MainHeader",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "sourceUserWidget": "c83c16868bee4b14a447d8845fa3b9d6",
+    "sourceUserWidget": "jb9218ecc05f4fee9833a0bde8d1529f",
     "wType": "UserWidgetInstance"
 }

@@ -62,8 +62,11 @@ define([
 	}
 
 	function endSession(){
-		throw new Error("logout is not implemented yet.");
-		//TODO: Implement call to logout.
+		return logout(idpName)
+		.catch(e =>{
+			kony.print(`Error: Unable to end user session.`);
+			throw e;
+		});
 	}
 
 	return {

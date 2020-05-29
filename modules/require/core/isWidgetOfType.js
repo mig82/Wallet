@@ -6,7 +6,7 @@ define(function () {
 		if(typeof widget === "undefined" || widget === null){
 			return false;
 		}
-		else if(typeof widget.wType === "string"){
+		else if(typeof widget.wType === "string" === typeof widgetType){
 			return widget.wType.toLowerCase() === widgetType.toLowerCase();
 		}
 		else if(widgetType === kony.ui.Browser){

@@ -1,13 +1,15 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -15,7 +17,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -26,38 +28,34 @@
     "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "MainHeader",
-        "carousel",
-        "scrollFlex"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
+    "clipbounds": false,
+    "containerweight": 0,
+    "data": {},
     "enablescrolling": true,
-    "id": "mainFlex",
+    "id": "MainHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f263f865703140e7ac427ed1ed91a6be",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "cardsForm",
+    "kuid": "f111a62c1f414b9b8d48e8b7c04c594d",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "mainFlex",
     "pf": "cardsForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {},
-    "wType": "FlexContainer",
-    "widgetalignment": 1
+    "sourceUserWidget": "fef5a999845d4840a62681beeb9ee680",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
 }
