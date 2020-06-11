@@ -1,5 +1,15 @@
-define({ 
+define([], function(){
 
- //Type your controller code here 
+	return {
+		postShow: function(){
+			this.view.RibbonsAnimation.onAnimationDone = () => {
+				kony.router.goto("login", {}, true);
+			};
+		},
 
- });
+		onNavigate: function(){
+			//Wire it all together.
+			kony.mvc.wire(this);
+		}
+	};
+});

@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
+    "_skin_": "se45d0f75d90449ca136d6a718cdcf54",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "RibbonsAnimation"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
