@@ -1,13 +1,17 @@
-define(function () {
+define(["core/getSdk"], function (getSdk) {
 
 	function getIdP(idpName){
+		var sdk = getSdk();
 		try{
-			return kony.sdk.getCurrentInstance().getIdentityService(idpName);
+			var idp = sdk.getIdentityService(idpName);
+			if(idp === null || typeof idp === "undefined" || !idp){
+				throw new Error(`Identity service '${idpName}' not found.`);
+			}
+			return idp;
 		}
 		catch(e){
-			let message = `Unable to get IdP ${idpName}: `+ JSON.stringify(e);
-			kony.print(message);
-			throw new Error(e);
+			kony.print(`Error: Could not get identity service '${idpName}':\n`+ e.stack);
+			throw e;
 		}
 	}
     return getIdP;

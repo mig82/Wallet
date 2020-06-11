@@ -1,0 +1,7 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "sanityTests",
+    "testSuiteInfo": [
+        "cardsModule.js"
+    ]
+}

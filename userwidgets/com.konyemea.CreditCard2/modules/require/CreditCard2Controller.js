@@ -2,7 +2,7 @@ define(["./splitBySpaces"], function(splitBySpaces) {
 
 	return {
 		preShow: function(){
-			this.view.panLabel.text = splitBySpaces(this.view.panLabel.text);
+			//this.view.panLabel.text = splitBySpaces(this.view.panLabel.text);
 		},
 
 		postShow: function(){},

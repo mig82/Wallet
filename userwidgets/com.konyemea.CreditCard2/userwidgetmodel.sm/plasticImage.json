@@ -43,11 +43,6 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "templateType": "userwidgets",
-        "topLevelBox": null
-    },
     "id": "plasticImage",
     "imagescalemode": 0,
     "info": null,

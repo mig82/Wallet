@@ -1,0 +1,13 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "cardsModule",
+    "testCaseInfo": [
+        "swipeRightLeftSeeDetailsAndBack.js",
+        "swipeForthAndBack.js",
+        "selectFirstCard.js",
+        "swipeToSelect.js"
+    ],
+    "usedBy": [
+        "sanityTests.js"
+    ]
+}

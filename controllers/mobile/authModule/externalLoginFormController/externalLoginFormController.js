@@ -1,6 +1,4 @@
-define(function(){
-
-	var User;
+define(["authModule/UserModel"], function(User){
 
 	return{
 
@@ -25,16 +23,16 @@ define(function(){
 				kony.router.goto("cards", {}, true);
 			})
 			.catch(e => {
-				kony.print("Failed external: " + JSON.stringify(e));
+				kony.print(`${e.message}\n${e.stack}`);
+				//TODO: Show a toast instead of an alert.
+				alert(JSON.stringify(e));
+				kony.router.goBack();
 			});
 		},
 
 		onNavigate: function(){
 			//Wire it all together.
 			kony.mvc.wire(this);
-
-			//Require the business controller for the login flow.
-			User = require("authModule/UserModel");
 		}
 	};
 });

@@ -21,25 +21,20 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0%"
+        "value": "10dp"
     },
     "_skin_": "s679032976ec4441b527ec218f32745a",
-    "_src_": "bank_card_logo.png",
+    "_src_": "iron_bank_logo_white.png",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "28%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "templateType": "userwidgets",
-        "topLevelBox": null
-    },
     "id": "logoImage",
     "imagescalemode": 1,
     "info": null,

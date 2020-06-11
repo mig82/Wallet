@@ -1,72 +1,60 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
         "value": "50%"
     },
+    "_children_": [],
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
         "value": "0dp"
     },
     "_margin_": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sb60cdc1de684c259cb664b6454fd11d",
-    "_text_": "XXXX XXXX XXXX XXXX",
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "_wrapping_": 2,
-    "accessibilityconfig": {
-        "a11yLabel": "XXXX"
-    },
-    "android": {
-        "textStyle": {
-            "letterSpacing": 0,
-            "strikeThrough": false
-        }
-    },
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "containerweight": 100,
-    "contentalignment": 4,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {},
+    "enablescrolling": true,
     "id": "panLabel",
     "info": null,
-    "ipad": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
-    "iphone": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f262ad5aae254ad295d1df4631943da8",
-    "name": "kony.ui.Label",
+    "kuid": "c219d4d9bd4f4593b4b128c0213862a8",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "dataFlex",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "textstyle": {},
-    "tooltip": "",
-    "wType": "Label",
-    "zindex": 1
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "g0db0946c1f044459c31d3958c0cb5c8",
+    "wType": "UserWidgetInstance"
 }

@@ -29,7 +29,10 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "mainFlex",
+        "doneButton"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -42,6 +45,7 @@
     },
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "friendlyName": "card",
     "id": "cardDetailsForm",
     "info": null,
     "initdone": false,

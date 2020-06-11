@@ -1,0 +1,68 @@
+{
+    "classname": "Card1",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ea643afc01f047d79d4e755147b09f14",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title or i18n",
+                        "srcWidget": "H1",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "e3440fd32519467eaae330c5b889becb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b922fad99ed74541929af25c498cbc16",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text or i18n",
+                        "srcWidget": "NormalMultiline",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "h3c735e3bcd8494189b6eb184b3a0890"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.infinity.cards",
+    "version": "1.0.0"
+}

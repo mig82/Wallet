@@ -1,0 +1,9 @@
+{
+    "testCaseName": "selectFirstCard",
+    "testSuiteName": "Test Cases",
+    "channelName": "Mobile",
+    "usedBy": [
+        "cardsModule.js"
+    ],
+    "userCode": true
+}
