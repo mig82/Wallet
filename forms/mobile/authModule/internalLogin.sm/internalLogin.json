@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se45d0f75d90449ca136d6a718cdcf54",
+    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,16 +29,12 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [
-        "loginButton",
-        "extLoginButton",
-        "T1"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "loginFormController"
+            "name": "internalLoginController"
         }
     },
     "desktopweb": {
@@ -46,8 +42,8 @@
     },
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "login",
-    "id": "loginForm",
+    "friendlyName": "internalLogin",
+    "id": "internalLogin",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -65,7 +61,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "jd426b8eee244ea294b118825976c0d6",
+                "kuid": "fc0d4109726546728e31ca4b7fd90516",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -76,7 +72,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "e64efe5645104c72a9b70ec0cf1e0735",
+                        "kuid": "j4bf93d07f92434990effaee4c619cfb",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -93,7 +89,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "ec68a8912c9945deb7c41253ef0d2cab",
+    "kuid": "h0a39ba642984cc8b0e44e94a819a8bb",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
@@ -107,9 +103,6 @@
         "needAppMenu": false
     },
     "spaandroidtablet": {
-        "needAppMenu": false
-    },
-    "spabb": {
         "needAppMenu": false
     },
     "spaip": {

@@ -1,0 +1,64 @@
+{
+    "android": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "androidwearos": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "background_color": "00000000",
+    "bg_type": "one",
+    "border_color": "424242ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "desktopweb": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "font_color": "003e75ff",
+    "font_name": "FuturaPT-Bold",
+    "font_size": 180,
+    "font_style": "normal",
+    "font_weight": "400",
+    "ipad": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "iphone": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "kuid": "s7bd4c75c9f84ada9665a9122f73fc05",
+    "spaan": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "spaandroidtablet": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "spaip": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "spaipad": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "spawindowstablet": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "spawinphone8": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "tabrcandroid": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "wType": "Label",
+    "watchos": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "windows8": {
+        "font_name": "FuturaPT-Bold"
+    },
+    "winphone8": {
+        "font_name": "FuturaPT-Bold"
+    }
+}

@@ -2,17 +2,9 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "5dp"
-    },
     "_height_": {
-        "type": "string",
-        "value": "100dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -26,11 +18,11 @@
         0,
         0
     ],
-    "_skin_": "s4bae668a930450c8d6070cf84cb153a",
-    "_text_": "Digital Wallet",
+    "_skin_": "s7bd4c75c9f84ada9665a9122f73fc05",
+    "_text_": "Title 1",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -44,9 +36,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "titleLabel",
+    "id": "innerLabel",
     "info": null,
     "ipad": {
         "psp": {
@@ -60,13 +56,14 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c2eba794355945f398684175699ce6c4",
+    "kuid": "fbfc30e4de50483caff025563c6ea09b",
     "name": "kony.ui.Label",
-    "parent": "loginForm",
-    "pf": "loginForm",
+    "parent": "T1",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
-    "wType": "Label"
+    "wType": "Label",
+    "zindex": 1
 }

@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
-        "value": "273dp"
+        "value": "200dp"
     },
     "_children_": [],
     "_height_": {
@@ -65,14 +65,14 @@
                 "value": "100%"
             }
         },
-        "text": "Sign in"
+        "text": "Sign in with other"
     },
     "enablescrolling": true,
-    "id": "loginButton",
+    "id": "extLoginButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c572344a46a641fdaf21a50833c5efd0",
+    "kuid": "c7e9607268ce4fc2842363393c7ec8dc",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",

@@ -1,0 +1,765 @@
+{
+    "classname": "T1",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d8cde277445f40028458bf6636a20326",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 1,
+                    "propertyKey": "contentAlignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "contentAlignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cf23ff4ee2a24fc6b3c9b191f1a553f6",
+                    "originalPropertyKey": "padding",
+                    "propertyIndex": 2,
+                    "propertyKey": "padding",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "padding",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "list",
+                        "uiRepresentation": "Padding",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b64961017c5d4bd29e95530211c66766",
+                    "originalPropertyKey": "enabled",
+                    "propertyIndex": 3,
+                    "propertyKey": "enabled",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "value"
+                        ],
+                        "displayName": "enabled",
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a35dbdacd85f4d1aa3dca6fc8f6bd8e9",
+                    "originalPropertyKey": "maxNumberOfLines",
+                    "propertyIndex": 4,
+                    "propertyKey": "maxNumberOfLines",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "textTruncatePosition"
+                        ],
+                        "displayName": "maxNumberOfLines",
+                        "forkablePlatforms": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "integer",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Text",
+                                "dataUpdaterId": "Forked-Text",
+                                "popupId": "Forked-Text",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {},
+                            "Radiobuttongroup": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ccc4b6377e284c5ca2dea1cf0e9a64fc",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text or i18n",
+                        "srcWidget": "innerLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad429818cf29481bb458982ec25b0fe7",
+                    "originalPropertyKey": "textStyle",
+                    "propertyIndex": 6,
+                    "propertyKey": "textStyle",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatforms": [
+                            "iphone",
+                            "android",
+                            "ipad",
+                            "tabrcandroid"
+                        ],
+                        "category": "widget",
+                        "childKeys": {
+                            "mobile": {
+                                "android": [
+                                    "lineSpacing",
+                                    "letterSpacing",
+                                    "strikeThrough"
+                                ],
+                                "iphone": [
+                                    "baseline",
+                                    "lineSpacing",
+                                    "letterSpacing",
+                                    "minLineHeight",
+                                    "maxLineHeight",
+                                    "strikeThrough",
+                                    "strikeThroughStyle"
+                                ]
+                            },
+                            "tablet": {
+                                "ipad": [
+                                    "baseline",
+                                    "lineSpacing",
+                                    "letterSpacing",
+                                    "minLineHeight",
+                                    "maxLineHeight",
+                                    "strikeThrough",
+                                    "strikeThroughStyle"
+                                ],
+                                "tabrcandroid": [
+                                    "lineSpacing",
+                                    "letterSpacing",
+                                    "strikeThrough"
+                                ]
+                            }
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textStyle",
+                        "forkableButDisplayedAsPSP": true,
+                        "forkablePlatforms": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android"
+                            ]
+                        },
+                        "isParentKeyInvisible": true,
+                        "srcWidget": "innerLabel",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android"
+                            ]
+                        },
+                        "type": "object",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-TextStyle",
+                                "dataUpdaterId": "Forked-TextStyle",
+                                "popupId": "Forked-TextStyle",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-TextStylePoperties",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fbc7c2f3da2a442fa5bf8225d21161b0",
+                    "originalPropertyKey": "textTruncatePosition",
+                    "propertyIndex": 7,
+                    "propertyKey": "textTruncatePosition",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "textTruncatePosition",
+                        "forkablePlatforms": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8"
+                            ]
+                        },
+                        "isDependentProp": true,
+                        "srcWidget": "innerLabel",
+                        "type": "enum",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Combobox": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Combobox-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f97afadd6fe04c54b1f0a0bb6381d515",
+                    "originalPropertyKey": "wrapping",
+                    "propertyIndex": 8,
+                    "propertyKey": "wrapping",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "ipad",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "wrapping",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone"
+                            ],
+                            "tablet": [
+                                "ipad"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "iec80e33bea640c898aee8dbec6ae8b4",
+                    "originalPropertyKey": "wrapping",
+                    "propertyIndex": 9,
+                    "propertyKey": "wrapping1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "iphone",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "wrapping1",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone"
+                            ],
+                            "tablet": [
+                                "ipad"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "enum",
+                        "uiRepresentation": "Label-Combobox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h0375ba3f382497eb753d3e418a97d75",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 10,
+                    "propertyKey": "textCopyable",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "android",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4e012de6a0b48b89c671e55a6193552",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 11,
+                    "propertyKey": "textCopyable1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "tabrcandroid",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable1",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2e7377ec5bc47c495a00adb75a75c4d",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 12,
+                    "propertyKey": "textCopyable2",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "ipad",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable2",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d0f28f691dc54fa797943d2c1cfd69a8",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 13,
+                    "propertyKey": "textCopyable3",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "iphone",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable3",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae35f72283d5440ba09563e38bf0f600",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 14,
+                    "propertyKey": "textCopyable4",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "spamobile",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable4",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa000a5d93c8409a96454245d370f978",
+                    "originalPropertyKey": "textCopyable",
+                    "propertyIndex": 15,
+                    "propertyKey": "textCopyable5",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "spatablet",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "dependentProps": [
+                            "pasteboardType"
+                        ],
+                        "displayName": "textCopyable5",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e1a1a78f190048c88bbd9e7fbf16b9e8",
+                    "originalPropertyKey": "enableCache",
+                    "propertyIndex": 16,
+                    "propertyKey": "enableCache1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "winphone8",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "enableCache1",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "winphone8"
+                            ],
+                            "tablet": []
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca64f4607e36475db30583fa5ae2ea40",
+                    "originalPropertyKey": "hoverSkin",
+                    "propertyIndex": 17,
+                    "propertyKey": "hoverSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "desktopweb",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hover Skin",
+                        "srcWidget": "innerLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b74a3106678247bf8cb96dc8be7989cd",
+                    "originalPropertyKey": "hoverSkin",
+                    "propertyIndex": 18,
+                    "propertyKey": "hoverSkin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "windows8",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Hover Skin",
+                        "srcWidget": "innerLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c6ccd54580a948b8a01062af73ba81cc",
+                    "originalPropertyKey": "includeFontPadding",
+                    "propertyIndex": 19,
+                    "propertyKey": "includeFontPadding",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "android",
+                        "category": "widget",
+                        "defaultValue": true,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "includeFontPadding",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "android"
+                            ],
+                            "tablet": [
+                                "android"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a12ed0a1aebb43c4b8b61296bd9ce9df",
+                    "originalPropertyKey": "includeFontPadding",
+                    "propertyIndex": 20,
+                    "propertyKey": "includeFontPadding1",
+                    "pw": {
+                        "access": "readwrite",
+                        "applicablePSPplatform": "tabrcandroid",
+                        "category": "widget",
+                        "defaultValue": true,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "includeFontPadding1",
+                        "pspPlatform": {
+                            "desktop": [],
+                            "mobile": [
+                                "android"
+                            ],
+                            "tablet": [
+                                "android"
+                            ]
+                        },
+                        "srcWidget": "innerLabel",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                },
+                {
+                    "access": "Enable",
+                    "defaultSkinKUID": "s7bd4c75c9f84ada9665a9122f73fc05",
+                    "group": "General",
+                    "kuid": "a9b6789f6a9041be9980e0d7e103854f",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 21,
+                    "propertyKey": "normalSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Normal Skin",
+                        "srcWidget": "innerLabel",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fbfc30e4de50483caff025563c6ea09b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.mig82.text",
+    "version": "1.0.0"
+}
