@@ -8,7 +8,7 @@
         <config-param api-version="" appid="" name="preprocessorRules" value=""/>
         <config-param api-version="" appid="" name="postprocessorRules" value=""/>
         <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
-        <config-param api-version="" appid="" name="endpointUrl" value="https://my-json-server.typicode.com/mig82/iron-bank-of-braavos/cards?holder_id=$holder_id"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://my-json-server.typicode.com/mig82/iron-bank-of-braavos/cards?holder_email=$user"/>
         <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
         <config-param api-version="" appid="" name="http.method" value="GET"/>
         <config-param api-version="" appid="" name="dataObjectName" value=""/>
@@ -20,7 +20,10 @@
     </service-config>
     <service-input passthrough="false">
         <header datatype="" name="" passthrough="false"/>
-        <param datatype="string" defaultvalue="" description="In a real project, this value must be taken from the session." encode="true" format="None" formatvalue="" name="holder_id" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="00uq3rc53x83RPdq00h7" value="">
+        <param datatype="string" defaultvalue="" description="In a real project, this value should be taken from the IdP by using the &quot;identity&quot; scope and setting it to [idp].profile.userid." encode="true" format="None" formatvalue="" name="user_DISABLED" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="00uq3rc53x83RPdq00h7" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="In a real project, this value should be taken from the IdP by using the &quot;identity&quot; scope and setting it to [idp].profile.email." encode="true" format="None" formatvalue="" name="user" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="atarg@foo.com" value="">
             <accessType></accessType>
         </param>
         <stub-param value=""/>

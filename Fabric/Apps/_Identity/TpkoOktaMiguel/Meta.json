@@ -1,0 +1,13 @@
+{
+  "name" : "TpkoOktaMiguel",
+  "type" : "oauth2",
+  "version" : "1.0",
+  "metaPreference" : -1,
+  "config" : "{\"dependent_providers\":[],\"auth_type\":\"oauth2\",\"session_restrictions\":{\"session_restriction_type\":\"allow_any_number_of_sessions\"},\"oauthProviderType\":\"okta\",\"grant_type\":\"authorization_code\",\"authorization_endpoint\":\"https://dev-359971.oktapreview.com/oauth2/v1/authorize\",\"token_endpoint\":\"https://dev-359971.oktapreview.com/oauth2/v1/token\",\"logout_url\":\"https://dev-359971.oktapreview.com/login/signout\",\"oktaDomainName\":\"https://dev-359971.oktapreview.com\",\"client_authentication\":{\"client_id\":\"0oap7xucfoMVExoIj0h7\",\"client_secret\":\"KFpHyacvBKJ-F3qKjy4H7QZGMmdOlB6qWV1qZL7j\",\"authentication_scheme\":\"header\"},\"scope\":\"openid profile email phone offline_access\",\"authentication_scheme\":\"header\",\"profile\":{\"endpoint\":{\"location\":\"url\",\"type\":\"direct\",\"value\":\"https://dev-359971.oktapreview.com/oauth2/v1/userinfo\"},\"request_method\":\"GET\",\"profile_attribute_selectors\":{\"federation_id\":\"sub\",\"email\":\"email\",\"first_name\":\"given_name\",\"last_name\":\"family_name\",\"display_name\":\"name\",\"phone_number\":\"phone_number\",\"custom_profile_attribute_selectors\":{}}},\"additional_data\":{\"token_request\":[],\"refresh_request\":[],\"profile_request\":[],\"authorize_request\":[],\"revoke_request\":[]}}",
+  "policyConfig" : "{\"def_user_status\":\"pending\",\"max_login_fail\":5}",
+  "admissionPolicy" : "no_approval_needed",
+  "identityMeta" : {
+    "allow_sso" : false
+  },
+  "ssoenabled" : false
+}

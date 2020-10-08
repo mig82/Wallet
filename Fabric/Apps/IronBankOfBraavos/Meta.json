@@ -6,15 +6,21 @@
   "intSvcs" : [ {
     "name" : "IronBank_Accounts",
     "version" : "1.0",
-    "etag" : "97f68152-f21c-4cee-a18c-c2acc7a51ce3"
+    "etag" : "a8a67235-07b7-46fb-b716-d6356567b5a1"
   }, {
     "name" : "IronBank_Cards",
     "version" : "1.0",
-    "etag" : "127e0cff-d34d-43bb-8951-16087ffcc3e4"
+    "etag" : "bb33ed28-f9e7-49a5-9bfb-eab96bcb2d1e"
   } ],
   "orchSvcs" : [ {
     "name" : "cust-global-position",
     "version" : "1.0",
     "etag" : "f42360e5-2079-4da5-bdee-2dddb2666bcd"
-  } ]
+  } ],
+  "rulesSvcs" : [ {
+    "name" : "IronBank_Rules",
+    "version" : "1.0",
+    "etag" : "0b4719cb-9672-4c9b-8108-868dc3b0fe74"
+  } ],
+  "identity" : [ "TpkoOktaMiguel" ]
 }
