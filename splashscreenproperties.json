@@ -1,35 +1,91 @@
 {
-	"splashScreen": {
-		"mobile": {
-			"iphone": {
-				"splashImage": "splash.png"
-			},
-			"android": {},
-			"winphone8": {},
-			"winphone10": {},
-			"spa": {},
-			"spaip": {},
-			"spaan": {},
-			"spabb": {},
-			"spawinphone8": {}
-		},
-		"tablet": {
-			"ipad": {
-				"landscape": {
-					"splashImage": "splashland.png"
-				},
-				"splashImage": "splash.png"
-			},
-			"android": {},
-			"windows8": {},
-			"spa": {},
-			"spaipad": {},
-			"spaandroidtablet": {},
-			"spawindowstablet": {}
-		},
-		"desktop": {
-			"desktopweb": {},
-			"kiosk": {}
-		}
-	}
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {},
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "i6cc213f348a4049935e0a84d88de52f",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spabb": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "scd67218a16e4e25a6853dd9f793751a",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "b45c286a20114bcc8182ae9f44bd0686",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
+        }
+    }
 }

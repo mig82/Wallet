@@ -267,7 +267,7 @@
     },
     "createdVizVersion": "8.4.55",
     "createdgaversion": "8.4.55",
-    "currentgaversion": "9.0.4",
+    "currentgaversion": "9.1.16",
     "deeplinkkey": "None",
     "defaultlocalekey": "en_US",
     "defaulttheme": "defaultTheme",
@@ -384,7 +384,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.0.4",
+    "konyVizVersion": "9.1.16",
     "lastmodifiedtime": "1578483877048",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
@@ -399,11 +399,6 @@
     "mwcontextkey": "",
     "mwhttpsportkey": "",
     "mwportkey": "",
-    "nativeContainerProperties": {
-        "isEnableJSContainer": true,
-        "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
-    },
     "objects3D": "false",
     "organizationidsso": "",
     "pasteboardtype": "systemlevel",
@@ -662,7 +657,7 @@
     "previewshowpassword": "false",
     "privateNetworkClientServer": "false",
     "project.type": "js",
-    "project_version": "sprint37",
+    "project_version": "sprint38",
     "protectedmodeenabled_android": "false",
     "protectedmodeenabled_androidwear": "false",
     "protectedmodeenabled_ios": "false",

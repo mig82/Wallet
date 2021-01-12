@@ -1,0 +1,65 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "b55b5b6b6949440eaced3f1e6d8a2883",
+                    "formName": "externalLoginForm",
+                    "isStartupForm": false,
+                    "key": "b55b5b6b6949440eaced3f1e6d8a2883",
+                    "loc": "8 39.690527343750006",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "h0a39ba642984cc8b0e44e94a819a8bb",
+                    "formName": "internalLogin",
+                    "isStartupForm": false,
+                    "key": "h0a39ba642984cc8b0e44e94a819a8bb",
+                    "loc": "8 639.6905273437501",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "ec68a8912c9945deb7c41253ef0d2cab",
+                    "formName": "loginForm",
+                    "isStartupForm": true,
+                    "key": "ec68a8912c9945deb7c41253ef0d2cab",
+                    "loc": "8 1239.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a3a7d87bc22e42bb9d5772ee3401e087",
+                    "formName": "splashForm",
+                    "isStartupForm": false,
+                    "key": "a3a7d87bc22e42bb9d5772ee3401e087",
+                    "loc": "8 1839.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "i89fa976d3d148419a7b479cca337253",
+                    "formName": "cardDetailsForm",
+                    "isStartupForm": false,
+                    "key": "i89fa976d3d148419a7b479cca337253",
+                    "loc": "8 2539.69052734375",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "fcfd9e8038a14a83a89faad87e13aac5",
+                    "formName": "cardsForm",
+                    "isStartupForm": false,
+                    "key": "fcfd9e8038a14a83a89faad87e13aac5",
+                    "loc": "8 3139.6905273437496",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    },
+    "nodeLocation": {
+        "androidwear": [],
+        "desktop": [],
+        "mobile": [],
+        "tablet": [],
+        "watch": []
+    }
+}

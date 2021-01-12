@@ -179,3 +179,5 @@ syncclientcode.zip
 
 # Don't track Visualizer storyboard's thumbnails in v9+
 /forms/**/*.sm/.thumbs
+
+/temp
