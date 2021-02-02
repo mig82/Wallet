@@ -34,18 +34,14 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "clipbounds": true,
     "containerweight": 0,
     "data": {},
-    "enablescrolling": true,
     "id": "Horizontal",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c889dcd396f544a7b3d4a6c27de953ba",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "mainFlex",
@@ -53,8 +49,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "e216b72d02e640f0acbb5d10d934ff8b",
     "wType": "UserWidgetInstance"
 }

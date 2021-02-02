@@ -35,25 +35,21 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": false,
     "containerweight": 0,
     "data": {
         "text": "title.CARDS"
     },
-    "enablescrolling": true,
     "id": "H1",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "b70b5f00cc014ea78a0eb89fd61e70f5",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "MainHeader",
@@ -61,8 +57,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "jb9218ecc05f4fee9833a0bde8d1529f",
     "wType": "UserWidgetInstance"
 }

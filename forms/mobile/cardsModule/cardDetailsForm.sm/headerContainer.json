@@ -35,13 +35,11 @@
         "type": "string",
         "value": "90%"
     },
-    "autogrowmode": 1,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {
         "isVisible11": true,
@@ -54,14 +52,12 @@
         "text": "Karty",
         "title": "title.CARD"
     },
-    "enablescrolling": true,
     "id": "headerContainer",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "a2df3188f8cd4a7f9a0bc74a3f58bf0d",
-    "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "mainFlex",
@@ -69,8 +65,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "c83c16868bee4b14a447d8845fa3b9d6",
     "wType": "UserWidgetInstance"
 }

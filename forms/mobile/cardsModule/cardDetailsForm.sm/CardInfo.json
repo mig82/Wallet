@@ -34,18 +34,14 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 1,
     "canUpdateUI": true,
-    "clipbounds": true,
     "containerweight": 0,
     "data": {},
-    "enablescrolling": true,
     "id": "CardInfo",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ga103dd431f8484eb8a3643de2f3c624",
-    "layouttype": 4,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "mainFlex",
@@ -53,8 +49,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "f83a2d4aa11945fb8efde337adc6b342",
     "wType": "UserWidgetInstance"
 }

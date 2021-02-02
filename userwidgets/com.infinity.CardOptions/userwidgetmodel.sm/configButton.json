@@ -31,13 +31,11 @@
         "type": "string",
         "value": "33%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {
         "backgroundWidth": {
@@ -60,14 +58,12 @@
         },
         "text": ""
     },
-    "enablescrolling": true,
     "id": "configButton",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "gdc2b208baa044a894cae524dd1b1af9",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "CardOptions",
@@ -75,8 +71,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "f1dc28506f7749b68cb0f82b0dfa3ee8",
     "wType": "UserWidgetInstance"
 }

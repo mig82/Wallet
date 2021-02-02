@@ -35,28 +35,22 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50.00%"
     },
-    "clipbounds": false,
     "containerweight": 0,
     "data": {},
-    "enablescrolling": true,
     "id": "carousel",
     "info": null,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "id6c291e593448b9ad79ec27055a99e9",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "mainFlex",
     "pf": "cardsForm",
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "bc10ff188af147b7b7f06860bdcd64c8",
     "wType": "UserWidgetInstance",
     "zindex": 20

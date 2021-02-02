@@ -36,7 +36,6 @@
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {
         "logoImageHeight": {
@@ -52,14 +51,12 @@
             }
         }
     },
-    "enablescrolling": true,
     "id": "RibbonsAnimation",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "h12f7c932adc473c88828968b31b3f9e",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "splashForm",
@@ -67,8 +64,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "b46f118acb654846ac868a7a9abbf663",
     "wType": "UserWidgetInstance",
     "zindex": 1

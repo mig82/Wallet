@@ -30,13 +30,11 @@
         "type": "string",
         "value": "90%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {
         "backgroundHeight": {
@@ -67,13 +65,11 @@
         },
         "text": "Sign in"
     },
-    "enablescrolling": true,
     "id": "loginButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c572344a46a641fdaf21a50833c5efd0",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "loginForm",
@@ -81,8 +77,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "f1dc28506f7749b68cb0f82b0dfa3ee8",
     "wType": "UserWidgetInstance"
 }

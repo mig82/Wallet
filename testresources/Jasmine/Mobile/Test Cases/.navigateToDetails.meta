@@ -122,10 +122,11 @@
                 "messageData": {
                     "widgetType": "Assert",
                     "metadata": {
-                        "assertType": "equal",
+                        "assertType": "toEqual",
                         "assertOnElement": "cardDetailsForm.doneButton.button1",
                         "assertValue": "Foo",
-                        "assertOnProperty": "text"
+                        "assertOnProperty": "text",
+                        "negationEnabled": false
                     }
                 }
             }
@@ -156,5 +157,6 @@
             }
         }
     ],
-    "usedBy": []
+    "usedBy": [],
+    "timeout": 0
 }

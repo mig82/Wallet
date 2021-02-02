@@ -40,17 +40,14 @@
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {},
-    "enablescrolling": true,
     "id": "cardOptions1",
     "info": null,
     "iscustomlayout": false,
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "b695d7d6332747559526cc04ba24d856",
-    "layouttype": 3,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "scrollFlex",
@@ -58,8 +55,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "f779249bc00a4a4f912632d0fdd9cc5c",
     "wType": "UserWidgetInstance"
 }

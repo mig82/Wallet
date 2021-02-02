@@ -35,16 +35,13 @@
         "type": "string",
         "value": "30dp"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "clipbounds": false,
     "containerweight": 0,
     "data": {
         "isVisible1": true,
         "isVisible2": true,
         "show": true
     },
-    "enablescrolling": true,
     "id": "notificationBubble",
     "ide_onTouchEnd": "AS_UWI_b2e9f7e602374e319624d93ebea308ea",
     "info": null,
@@ -52,15 +49,12 @@
     "issegmentchild": false,
     "isvisible": true,
     "kuid": "f5fc0589f49c4236bbeba9c5f5a562f8",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "bottomContainer",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "g88eaf08f962461b922f9bc1af60de83",
     "wType": "UserWidgetInstance",
     "zindex": 1

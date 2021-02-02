@@ -34,18 +34,14 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "clipbounds": true,
     "containerweight": 0,
     "data": {},
-    "enablescrolling": true,
     "id": "panLabel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c219d4d9bd4f4593b4b128c0213862a8",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "dataFlex",
@@ -53,8 +49,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "g0db0946c1f044459c31d3958c0cb5c8",
     "wType": "UserWidgetInstance"
 }

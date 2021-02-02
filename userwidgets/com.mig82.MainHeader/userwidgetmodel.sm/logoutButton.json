@@ -30,13 +30,11 @@
         "type": "string",
         "value": "70dp"
     },
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "clipbounds": true,
     "containerweight": 0,
     "data": {
         "backgroundHeight": {
@@ -65,13 +63,11 @@
         },
         "text": ""
     },
-    "enablescrolling": true,
     "id": "logoutButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e63222c6904246bb8ff0c804e53852ae",
-    "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "MainHeader",
@@ -79,8 +75,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
     "sourceUserWidget": "f1dc28506f7749b68cb0f82b0dfa3ee8",
     "wType": "UserWidgetInstance"
 }
